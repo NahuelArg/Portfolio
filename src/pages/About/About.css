@@ -1,0 +1,30 @@
+/* About.css */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad ajustada */
+margin: 20px auto;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+max-width: 1200px;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f4f5f8; /* Azul */
+  }
+  
+  .about-description {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    color: #0b5fce; /* Gris oscuro */
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+  

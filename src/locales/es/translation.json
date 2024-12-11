@@ -1,0 +1,36 @@
+{
+    "home": {
+      "greeting": "¡Hola! Soy",
+      "name": "Nahuel Argañaraz",
+      "description": "Desarrollador Full Stack apasionado por crear soluciones innovadoras.",
+      "viewProjects": "Ver Proyectos",
+      "contactMe": "Contáctame",
+      "profileAltText": "Perfil de Nahuel"
+    },
+        "about": {
+          "title": "Sobre mí",
+          "description": "Full Stack Developer con una sólida experiencia en el desarrollo de aplicaciones utilizando tecnologías como JavaScript, Java, NodeJS, HTML/CSS, PostgreSQL y MySQL. También tengo un profundo conocimiento en el uso de frameworks modernos como React para construir aplicaciones web dinámicas y eficientes.\n\nMe especializo en metodologías ágiles, como SCRUM, y estoy familiarizado con herramientas de gestión de proyectos como Trello y Jira, lo que me permite adaptarme y colaborar eficazmente en entornos de trabajo en equipo. Mi enfoque se basa en la organización y la entrega de soluciones de alta calidad.\n\nEstoy motivado por la posibilidad de contribuir a proyectos innovadores y formar parte de equipos que estén impulsando el avance tecnológico. Mi objetivo es aportar mis habilidades y experiencia para desarrollar productos que generen un impacto positivo y duradero."
+        }
+      ,      
+    "contact": {
+      "title": "Contáctame",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Tu mensaje",
+      "submitButton": "Enviar",
+      "successMessage": "Gracias por tu mensaje, te responderé pronto.",
+      "namePlaceholder": "Tu nombre",
+      "emailPlaceholder": "Tu correo electrónico",
+      "messagePlaceholder": "Tu mensaje"
+    },
+    "projects": {
+      "title": "Proyectos",
+      "ninaProjectTitle": "E-commerce (Nina)",
+      "ninaDescription": "Tienda en línea con React y Node.js.",
+      "viewProject": "Ver Proyecto",
+      "viewPage": "Ver pagina",
+      "apiGymTitle": "Api Gym",
+      "apiGymDescription": "Proyecto para la gestión de gimnasios."
+    }
+  }
+  

@@ -1,0 +1,35 @@
+/* Loader.css */
+
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6; /* Fondo gris claro */
+  }
+  
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #e5e7eb; /* Borde gris claro */
+    border-top: 5px solid #1d4ed8; /* Azul */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  p {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    color: #4b5563; /* Gris oscuro */
+  }
+  

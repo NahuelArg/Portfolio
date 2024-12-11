@@ -1,0 +1,36 @@
+{
+    "home": {
+      "greeting": "Hi! I'm",
+      "name": "Nahuel Argañaraz",
+      "description": "Full Stack Developer passionate about creating innovative solutions.",
+      "viewProjects": "View Projects",
+      "contactMe": "Contact Me",
+      "profileAltText": "Profile of Nahuel"
+    },
+    
+        "about": {
+          "title": "About Me",
+          "description": "Full Stack Developer with solid experience in developing applications using technologies such as JavaScript, Java, NodeJS, HTML/CSS, PostgreSQL, and MySQL. I also have deep knowledge of using modern frameworks like React to build dynamic and efficient web applications.\n\nI specialize in agile methodologies like SCRUM and am familiar with project management tools like Trello and Jira, which allows me to adapt and collaborate effectively in team environments. My approach is based on organization and delivering high-quality solutions.\n\nI am motivated by the opportunity to contribute to innovative projects and be part of teams that are driving technological advancement. My goal is to contribute my skills and experience to develop products that make a positive and lasting impact."
+        },
+    "contact": {
+      "title": "Contact Me",
+      "name": "Name",
+      "email": "Email",
+      "message": "Your message",
+      "submitButton": "Send",
+      "successMessage": "Thanks for your message, I’ll get back to you soon.",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "messagePlaceholder": "Your message"
+    },
+    "projects": {
+      "title": "Projects",
+      "ninaProjectTitle": "E-commerce (Nina)",
+      "ninaDescription": "Online store with React and Node.js.",
+      "viewProject": "View Project",
+      "viewPage": "View Page",
+      "apiGymTitle": "Api Gym",
+      "apiGymDescription": "Project for managing gyms."
+    }
+  }
+  

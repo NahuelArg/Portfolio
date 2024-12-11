@@ -1,0 +1,89 @@
+/* Home.css */
+
+.home {
+  background: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad ajustada */
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  }
+  
+  .home .title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1d4ed8; /* Azul */
+  }
+  
+  .home .highlight {
+    color: #10b981; /* Verde */
+  }
+  
+  .home .description {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    color: #4b5563; /* Gris oscuro */
+    width: 50%;
+  }
+  
+  .home-buttons {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .home-button{
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #10b981; /* Verde */
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .home .button:hover {
+    background-color: #059669;
+  }
+  .section-container {
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+  }
+ 
+  .home-image img {
+    width: 300px; /* La imagen ocupará todo el ancho del div */
+    height: 300px; /* La imagen ocupará toda la altura del div */
+    object-fit: cover; /* Recorta la imagen para que llene el contenedor manteniendo sus proporciones */
+    object-position: center; /* Centra la imagen */
+    border-radius: 8px;
+    padding-top: 25px;
+  }
+  .home-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .home-principal{
+    width: 100%;
+    display: flex;
+    
+  }
+
+  .icons{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .icon{
+    width: 20%;
+    height: 15%;
+  }
