@@ -5,7 +5,7 @@ import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
 import './App.css'; // Archivo global para los estilos
-import Loader from './components/loader/loader';
+import Loader from './components/loader/Loader.jsx';
 import './i18n'; // Importa la configuración de i18next
 import AOS from 'aos';
 import 'aos/dist/aos.css';
