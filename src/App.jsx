@@ -1,17 +1,17 @@
-import React, { useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next';
-import Home from './pages/Home/Home';
-import About from './pages/About/About';
-import Projects from './pages/Projects/Projects';
-import Contact from './pages/Contact/Contact';
-import './App.css'; // Archivo global para los estilos
-import Loader from './components/loader/Loader.jsx';
-import './i18n'; // Importa la configuración de i18next
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Projects from "./pages/Projects/Projects";
+import Contact from "./pages/Contact/Contact";
+import "./App.css"; // Archivo global para los estilos
+import Loader from "./components/loader/Loader.jsx";
+import "./i18n"; // Importa la configuración de i18next
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // Importa el componente react-world-flags
-import Flag from 'react-world-flags';
+import Flag from "react-world-flags";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -39,22 +39,26 @@ function App() {
         <div>
           <header>
             {/* Esto traducirá el texto "welcome" */}
-            
+
             {/* Botones para cambiar idioma con banderas */}
+          
             <div className="language-switcher">
+            
               <Flag
                 code="ES" // Código ISO de la bandera de España
                 alt="Español"
                 className="flag-icon"
-                onClick={() => changeLanguage('es')}
+                onClick={() => changeLanguage("es")}
               />
+
               <Flag
                 code="US" // Código ISO de la bandera de USA
                 alt="English"
                 className="flag-icon"
-                onClick={() => changeLanguage('en')}
+                onClick={() => changeLanguage("en")}
               />
             </div>
+            
           </header>
 
           {/* Aquí van las otras secciones */}

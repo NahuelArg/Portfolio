@@ -16,7 +16,7 @@
   }
   
   .home .highlight {
-    color: #10b981; /* Verde */
+    color: #37313c; /* Verde */
   }
   
   .home .description {
@@ -37,7 +37,7 @@
     padding: 0.75rem 1.5rem;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: #10b981; /* Verde */
+    background-color: #161616; /* Verde */
     color: white;
     text-decoration: none;
     border-radius: 0.5rem;
@@ -46,7 +46,7 @@
   }
   
   .home .button:hover {
-    background-color: #059669;
+    background-color: #181a19;
   }
   .section-container {
     background: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */

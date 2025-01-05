@@ -1,7 +1,7 @@
 /* Contact.css */
 
 .contact {
-  background: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad ajustada */
+  background: rgba(39, 38, 38, 0.304); /* Fondo blanco con opacidad ajustada */
   margin: 20px auto;
   padding: 20px;
   border-radius: 8px;
@@ -29,16 +29,16 @@
   .textarea {
     width: 100%;
     padding: 0.75rem;
-    border: 1px solid #e5e7eb;
-    border-radius: 0.5rem;
+    border: 1px solid #153c8c94;
+    border-radius: 20px;
     font-size: 1rem;
-    color: #4b5563;
+    color: #0c0c0c;
   }
   
   .textarea {
     margin-top: 1rem;
   font-size: 1.25rem;
-  color: #0f0f10; /* Gris más suave */
+  color: #000000; /* Gris más suave */
   }
   
   .button {

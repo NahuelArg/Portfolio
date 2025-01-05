@@ -1,30 +1,30 @@
 /* About.css */
 
 .about {
+  font-family: sans-serif;
+width: 80%;
   display: flex;
   flex-direction: column;
+  text-align: justify;
   background: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad ajustada */
-margin: 20px auto;
-padding: 20px;
-border-radius: 8px;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-max-width: 1200px;
-  }
-  
-  .about-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #f4f5f8; /* Azul */
-  }
-  
-  .about-description {
-    margin-top: 1rem;
-    font-size: 1.25rem;
-    color: #0b5fce; /* Gris oscuro */
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.6;
-  }
-  
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #0c0c0c; /* Azul */
+}
+
+.about-description {
+  font-family: sans-serif;
+  color: #0b0c74a8; /* Gris oscuro */
+  border: #0b0c74a8 solid 2px;
+  border-radius: 15px;
+  margin: 0px 10px 10px 10px;
+  letter-spacing: 1%;
+}

@@ -1,7 +1,6 @@
 /* Projects.css */
 
 .projects {
-  background-color: #f9fafb; /* Gris claro */
   padding: 4rem 2rem;
   text-align: center;
   }
@@ -9,7 +8,7 @@
   .projects .title {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #1d4ed8; /* Azul */
+    text-align: center;
   }
   
   .projects-container {
@@ -34,21 +33,20 @@
   .project-title {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #1d4ed8; /* Azul */
+    color: #38393a86; /* Azul */
   }
   
   .project-description {
     margin-top: 1rem;
     font-size: 1.25rem;
-    color: #d1d5db; /* Gris más suave */
+    color: #060b12; /* Gris más suave */
   }
   
   .button {
     display: inline-block;
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
-    background-color: #10b981; /* Verde */
-    color: white;
+    background-color: #333736; /* Verde */
     text-decoration: none;
     border-radius: 0.5rem;
     transition: background-color 0.3s ease;
@@ -57,7 +55,7 @@
   }
   
   .button:hover {
-    background-color: #059669;
+    background-color: #7f3eca88;
   }
   .section-container {
     display: flex;
@@ -67,7 +65,8 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 1200px;
+width: auto;  
+height: auto;
   }
   .project-image{
     width: 100%;

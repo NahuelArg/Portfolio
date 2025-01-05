@@ -50,7 +50,7 @@ body::after {
 
 /* Sección */
 .section {
-  padding: 4rem 2rem;
+
   text-align: center;
   position: relative; /* Asegura que el contenido no sea afectado por el fondo */
   z-index: 1; /* Coloca el contenido encima del fondo */
@@ -58,9 +58,10 @@ body::after {
 
 /* Título */
 .title {
+  text-align: center;
   font-size: 2.5rem;
   font-weight: bold;
-  color: #ffffff; /* Blanco para asegurar contraste */
+  color: #201e1e; /* Blanco para asegurar contraste */
 }
 
 /* Descripción */
@@ -75,7 +76,7 @@ body::after {
   display: inline-block;
   margin-top: 2rem;
   padding: 0.75rem 1.5rem;
-  background-color: #10b981; /* Verde */
+  background-color: #1a1a1a8c; /* Verde */
   color: white;
   text-decoration: none;
   border-radius: 0.5rem;
@@ -85,7 +86,7 @@ body::after {
 }
 
 .button:hover {
-  background-color: #059669; /* Verde más oscuro */
+  background-color: #232726; /* Verde más oscuro */
 }
 
 /* Estilos para las banderas */
@@ -94,15 +95,20 @@ body::after {
   justify-content: center;
   gap: 10px;
   margin-top: 10px;
+  text-align: left;
 }
 
 .flag-icon {
-  width: 40px; /* Tamaño más pequeño de las banderas */
-  height: 30px; /* Mantener proporciones */
+  width: 250px; /* Tamaño más pequeño de las banderas */
+  height: 150px; /* Mantener proporciones */
   cursor: pointer;
   transition: transform 0.3s ease;
+  padding: 15px;
+  margin: 20px 30px 20px 30px;
+  box-sizing: border-box;
 }
 
 .flag-icon:hover {
   transform: scale(1.1); /* Efecto al pasar el mouse */
 }
+
