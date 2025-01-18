@@ -48,10 +48,10 @@ const Home = () => {
             </div>
           </div>
           <div className="home-buttons">
-            <a href="#projects" className="home-button home-button-blue">
+            <a href="#projects" className="button">
               {t('home.viewProjects')}
             </a>
-            <a href="#contact" className="home-button home-button-green">
+            <a href="#contact" className="button">
               {t('home.contactMe')}
             </a>
           </div>

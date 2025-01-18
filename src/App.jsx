@@ -1,32 +1,37 @@
+// Importaciones necesarias
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
-import "./App.css"; // Archivo global para los estilos
-import Loader from "./components/loader/Loader.jsx";
-import "./i18n"; // Importa la configuración de i18next
+import Loader from "./components/loader/Loader";
 import AOS from "aos";
-import "aos/dist/aos.css";
+import "aos/dist/aos.css"; // Animaciones de scroll
+import "./App.css"; // Estilos globales
+import "./i18n"; // Configuración de i18next
+import Flag from "react-world-flags"; // Componente para mostrar banderas
 
-// Importa el componente react-world-flags
-import Flag from "react-world-flags";
-
+// Componente principal de la aplicación
 function App() {
+  // Estado para controlar la carga
   const [loading, setLoading] = useState(true);
-  const { t, i18n } = useTranslation(); // hook de i18next
 
-  // Función para cambiar el idioma
+  // Hook para traducciones
+  const { t, i18n } = useTranslation();
+
+  // Cambiar idioma
   const changeLanguage = (lang) => {
-    i18n.changeLanguage(lang); // Cambia el idioma
+    i18n.changeLanguage(lang);
   };
 
+  // Simulación de tiempo de carga inicial
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 2000); // Simula 2 segundos de carga
-    return () => clearTimeout(timer);
+    const timer = setTimeout(() => setLoading(false), 2000); // 2 segundos de carga
+    return () => clearTimeout(timer); // Limpiar el temporizador
   }, []);
 
+  // Inicialización de animaciones al montar el componente
   useEffect(() => {
     AOS.init({ duration: 1200 }); // Duración de las animaciones
   }, []);
@@ -34,34 +39,38 @@ function App() {
   return (
     <div className="app-container">
       {loading ? (
+        // Mostrar el componente Loader mientras carga
         <Loader />
       ) : (
+        // Contenido principal después de cargar
         <div>
-          <header>
-            {/* Esto traducirá el texto "welcome" */}
+          {/* Selector de idioma */}
+          <div className="language-switcher">
+            <ul className="language-selector">
+              {/* Opción para español */}
+              <li data-lang="es" onClick={() => changeLanguage("es")}>
+                <Flag
+                  code="ES" // Código ISO de la bandera
+                  alt="Español"
+                  className="flag-iconES"
+                />
+                <p>ESP</p>
+                <span className="tooltip">{t("Select Spanish")}</span>
+              </li>
+              {/* Opción para inglés */}
+              <li data-lang="en" onClick={() => changeLanguage("en")}>
+                <Flag
+                  code="US" // Código ISO de la bandera
+                  alt="English"
+                  className="flag-iconUSA"
+                />
+                <p>ENG</p>
+                <span className="tooltip">{t("Select English")}</span>
+              </li>
+            </ul>
+          </div>
 
-            {/* Botones para cambiar idioma con banderas */}
-          
-            <div className="language-switcher">
-            
-              <Flag
-                code="ES" // Código ISO de la bandera de España
-                alt="Español"
-                className="flag-icon"
-                onClick={() => changeLanguage("es")}
-              />
-
-              <Flag
-                code="US" // Código ISO de la bandera de USA
-                alt="English"
-                className="flag-icon"
-                onClick={() => changeLanguage("en")}
-              />
-            </div>
-            
-          </header>
-
-          {/* Aquí van las otras secciones */}
+          {/* Secciones principales de la aplicación */}
           <Home />
           <About />
           <Projects />

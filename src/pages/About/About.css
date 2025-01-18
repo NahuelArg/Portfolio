@@ -17,13 +17,12 @@ width: 80%;
   font-family: sans-serif;
   text-align: center;
   font-size: 2.5rem;
-  color: #0c0c0c; /* Azul */
+  color: #b8b0b0a7; /* Azul */
 }
 
 .about-description {
   font-family: sans-serif;
-  color: #0b0c74a8; /* Gris oscuro */
-  border: #0b0c74a8 solid 2px;
+  color: #1f221cc9; /* Gris oscuro */
   border-radius: 15px;
   margin: 0px 10px 10px 10px;
   letter-spacing: 1%;

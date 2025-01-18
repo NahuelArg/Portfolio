@@ -3,7 +3,7 @@
 .home {
   background: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad ajustada */
   margin: 20px auto;
-  padding: 20px;
+  padding: 20px 10px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   max-width: 1200px;
@@ -12,17 +12,15 @@
   .home .title {
     font-size: 3rem;
     font-weight: bold;
-    color: #1d4ed8; /* Azul */
   }
   
   .home .highlight {
-    color: #37313c; /* Verde */
+    color: #611b9a; /* Verde */
   }
   
   .home .description {
     margin-top: 1rem;
     font-size: 1.25rem;
-    color: #4b5563; /* Gris oscuro */
     width: 50%;
   }
   
@@ -32,22 +30,6 @@
     justify-content: center;
   }
 
-  .home-button{
-    margin-top: 2rem;
-    padding: 0.75rem 1.5rem;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: #161616; /* Verde */
-    color: white;
-    text-decoration: none;
-    border-radius: 0.5rem;
-    transition: background-color 0.3s ease;
-    
-  }
-  
-  .home .button:hover {
-    background-color: #181a19;
-  }
   .section-container {
     background: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
     margin: 20px auto;
@@ -84,6 +66,6 @@
     
   }
   .icon{
-    width: 20%;
-    height: 15%;
+    width: 5%;
+    height: 3%;
   }
