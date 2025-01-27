@@ -13,7 +13,7 @@ import "../src/locales/i18n";
 
 // Components and pages
 import Loader from "./components/loader/Loader";
-import Navbar from "./components/NavBar/Navbar";
+import Navbar from "./components/NavBar/NavBar.jsx";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
