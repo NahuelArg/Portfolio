@@ -1,29 +1,10 @@
-/* About.css */
-
-.about {
-  font-family: sans-serif;
-width: 80%;
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  background: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad ajustada */
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.about-title {
-  font-family: sans-serif;
+.about-button {
+  display: inline-block;
+  padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+  font-size: 1rem;
   text-align: center;
-  font-size: 2.5rem;
-  color: #b8b0b0a7; /* Azul */
-}
-
-.about-description {
-  font-family: sans-serif;
-  color: #1f221cc9; /* Gris oscuro */
-  border-radius: 15px;
-  margin: 0px 10px 10px 10px;
-  letter-spacing: 1%;
+  text-decoration: none;
+  color: #fff; /* Color del texto */
+  border-radius: 5px;
+  width: 200px; /* Ancho fijo; ajusta este valor según tus necesidades */
 }

@@ -21,7 +21,7 @@ const Projects = () => {
               href="https://github.com/Tech3WebStudio/Ecommerce-Mend"
               target="_blank"
               rel="noopener noreferrer"
-              className="button"
+              className=""
             >
               {t('projects.viewProject')}
             </a>
@@ -29,7 +29,7 @@ const Projects = () => {
               href="https://ninashowroom.techwebstudio.com.ar/"
               target="_blank"
               rel="noopener noreferrer"
-              className="button"
+              className=""
             >
               {t('projects.viewPage')}
             </a>
@@ -42,7 +42,7 @@ const Projects = () => {
             href="https://github.com/Tech3WebStudio/systemGym"
             target="_blank"
             rel="noopener noreferrer"
-            className="button"
+            className=""
           >
             {t('projects.viewProject')}
           </a>
