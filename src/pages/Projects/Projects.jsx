@@ -1,8 +1,8 @@
 import React from "react";
 import { useTranslation } from 'react-i18next'; // Importa el hook
 import "./Projects.css";
+import gym from "../../../public/software para gimnasios.jpg";
 import nina from "../../assets/nina.png";
-
 const Projects = () => {
   const { t } = useTranslation(); // Obtén la función t() para traducir
 
@@ -21,7 +21,7 @@ const Projects = () => {
               href="https://github.com/Tech3WebStudio/Ecommerce-Mend"
               target="_blank"
               rel="noopener noreferrer"
-              className=""
+              className="projects-link"
             >
               {t('projects.viewProject')}
             </a>
@@ -29,7 +29,7 @@ const Projects = () => {
               href="https://ninashowroom.techwebstudio.com.ar/"
               target="_blank"
               rel="noopener noreferrer"
-              className=""
+              className="projects-link"
             >
               {t('projects.viewPage')}
             </a>
@@ -37,12 +37,13 @@ const Projects = () => {
         </div>
         <div className="project-card">
           <h3 className="project-title">{t('projects.apiGymTitle')}</h3>
+          <img src={gym} alt="" className="project-image" />
           <p className="project-description">{t('projects.apiGymDescription')}</p>
           <a
             href="https://github.com/Tech3WebStudio/systemGym"
             target="_blank"
             rel="noopener noreferrer"
-            className=""
+            className="projects-link"
           >
             {t('projects.viewProject')}
           </a>

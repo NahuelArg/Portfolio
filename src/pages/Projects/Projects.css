@@ -9,11 +9,20 @@
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
-  color: rgba(184, 176, 176, 0.653); /* Azul */
-
+  margin: 1rem 0;
+  padding: 0 1rem;
 }
 
-
+.projects-link{
+  color: #8F9A68;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 15px 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  align-items: center;
+}
 .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -29,8 +38,9 @@
   border: 1px;
   border-radius: 0.5rem;
   padding: 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.141);
   text-align: center;
+  border-bottom: #8F9A68 solid 5px;
+  background-color: #f2f3f0a5;
 }
 
 .project-title {
@@ -42,7 +52,7 @@
 .project-description {
   margin-top: 1rem;
   font-size: 1.25rem;
-  color: #373838e2; /* Gris más suave */
+  color: #333; /* Gris más suave */
 }
 
 
@@ -51,11 +61,10 @@
 .section-container {
   display: flex;
   flex-direction: column;
-  background: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad ajustada */
-  margin: 20px auto;
+  background:#8F9A68;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px #72794F;
   width: auto;
   height: auto;
 }
