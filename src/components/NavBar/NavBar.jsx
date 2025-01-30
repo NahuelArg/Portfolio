@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import cvEn from "../../../public/CV Carvajal-Nahuel-En.pdf"
 import "./Navbar.css"; // Importa el archivo CSS para Navbar
 
 
@@ -14,8 +13,8 @@ const Navbar = () => {
   // Determinar el CV según el idioma
   const getCVLink = () => {
     return i18n.language === "en"
-      ? "/CV Carvajal-Nahuel-En.pdf" 
-      : "/CV-Nahuel-Fullstack.pdf";
+      ? "https://drive.google.com/file/d/1dsaqz5Onu3KXL4xZ7TB7dGi9ZAx_pRsf/view?usp=drive_link" 
+      : "https://drive.google.com/file/d/1aEd_LjRy0e3yUmJnnpiuHKz408043DD5/view?usp=drive_link";
   };
 
   return (
