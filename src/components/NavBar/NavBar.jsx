@@ -13,9 +13,9 @@ const Navbar = () => {
 
   // Determinar el CV según el idioma
   const getCVLink = () => {
-    return i18n.language === "en" // Verifica el idioma actual
-      ? "./CV Carvajal-Nahuel-En.pdf" // Enlace al CV en inglés
-      : "./CV-Nahuel-Fullstack.pdf"// Enlace al CV en español
+    return i18n.language === "en"
+      ? "/CV Carvajal-Nahuel-En.pdf" 
+      : "/CV-Nahuel-Fullstack.pdf";
   };
 
   return (
