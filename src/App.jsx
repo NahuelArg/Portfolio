@@ -66,18 +66,16 @@ function App() {
           </ul>
         </div>
       </nav>
-
-      {/* Main content section */}
-      <main>
-        <Routes>
+      <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </main>
+      {/* Main content section */}
     </div>
+    
   );
 }
 

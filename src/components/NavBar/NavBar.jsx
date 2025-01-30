@@ -30,15 +30,15 @@ const Navbar = () => {
 
       {/* Barra de navegación */}
       <div className={`navbar ${navVisible ? "visible" : ""}`}>
-        <a href="/" className="navbar-link">
+        <a href="#/" className="navbar-link">
           {t("home.profileAltText")}
         </a>
 
-        <a href="/projects" className="navbar-link">
+        <a href="#/projects" className="navbar-link">
           {t("home.viewProjects")}
         </a>
 
-        <a href="/contact" className="navbar-link">
+        <a href="#/contact" className="navbar-link">
           {t("home.contactMe")}
         </a>
 
