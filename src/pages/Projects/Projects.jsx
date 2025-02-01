@@ -7,7 +7,7 @@ const Projects = () => {
   const { t } = useTranslation(); // Obtén la función t() para traducir
 
   return (
-    <section id="projects" className="section-container" data-aos="flip-down">
+    <section id="projects" className="section-container">
       <h2 className="title">{t('projects.title')}</h2>
       <div className="projects-container">
         <div className="project-card">
