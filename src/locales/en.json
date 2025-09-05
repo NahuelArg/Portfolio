@@ -1,0 +1,84 @@
+{
+"nav": {
+    "about": "About",
+    "work": "Work",
+    "contact": "Contact",
+    "projects": "Projects"
+},
+"services": {
+    "fullstack": "Fullstack Developer",
+    "frontend": "Frontend Developer",
+    "backend": "Backend Developer"
+},
+"experiences": [
+    {
+      "title": "Full Stack Developer (Internship)",
+      "company_name": "IDPartners",
+      "date": "Jun 2024 - Aug 2024",
+      "points": [
+        "Process automation in Google Sheets using Google Apps Script.",
+        "Creation of interactive buttons in spreadsheets that executed scripts connected to external APIs.",
+        "Data validation and testing with Postman to ensure correct integration with Pipedrive (sales CRM and management software).",
+        "Improved efficiency in data management and internal company workflows."
+      ]
+    },
+    {
+      "title": "Co-Founder & Full Stack Developer",
+      "company_name": "Tech Web Studio",
+      "date": "July 2023 - Feb 2025",
+      "points": [
+        "Founded a digital agency during the Henry bootcamp with two partners.",
+        "Developed web projects for clients using React.js, Node.js, Express.js, and PostgreSQL.",
+        "Designed and implemented custom solutions, from architecture to user interface."
+      ]
+    },
+    {
+      "title": "Freelance AI Trainer",
+      "company_name": "Outlier AI · Freelance Platform",
+      "date": "2023 -2024",
+      "points": [
+        "Training and supervision of artificial intelligence models on the Outlier AI platform.",
+        "Contributed to algorithm improvement through quality data generation and structured feedback."
+      ]
+    }
+],
+"projects": [
+    {
+        "introduction":"What I have done so far",
+        "overview": "Work Experience."
+
+    },
+    {
+      "name": "Chef Experience Portfolio",
+      "description": "Interactive portfolio for chefs, developed with React, TypeScript, Tailwind CSS, Framer Motion, and internationalization (i18n) in English and Spanish. Features a dish carousel, animations, hamburger menu, and responsive design."
+    }
+],
+"experienceSection": {
+    "introduction": "What I have done so far",
+    "overview": "Work Experience."
+},
+"hero":{
+  "welcome": "Hi, I'm",
+  "name": "Nahuel Carvajal",
+  "description": "I'm a full stack developer passionate about creating efficient and attractive web solutions."
+},
+"about": {
+        "introduction": "About Me",
+        "overview": "Overview.",
+        "description": "I'm a Full Stack Developer with strong experience in TypeScript and JavaScript. I build responsive and user-friendly interfaces using React.js and Next.js, and develop robust backend APIs with Node.js, Express, and NestJS. I work efficiently with relational databases like MySQL and PostgreSQL, and also leverage Firebase for authentication and real-time data. Passionate about creating scalable, maintainable, and intuitive web solutions, I enjoy turning ideas into functional applications."
+},
+"works": {
+        "mywork": "My Work",
+        "projects": "Projects",
+        "description": "'These projects represent a selection of my work and demonstrate how I apply my skills in real-world cases. Each one includes a short description, as well as links to the code and live demo. Through them, I showcase my ability to solve issues, adapt to different technologies, and carry projects forward efficiently."
+},
+"contact": {
+    "getintouch": "Get in touch",
+    "title": "Contact.",
+    "name":"Your Name",
+    "email":"Your Email",
+    "message":"Your Message",
+    "button":"Send",
+    "sending": "Sending..."
+}
+}

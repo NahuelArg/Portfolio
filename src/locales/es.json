@@ -1,0 +1,79 @@
+{
+"nav": {
+    "about": "Sobre mí",
+    "work": "Trabajo",
+    "contact": "Contacto",
+    "projects": "Proyectos"
+},
+"services": {
+    "fullstack": "Desarrollador Fullstack",
+    "frontend": "Desarrollador Frontend",
+    "backend": "Desarrollador Backend"
+},
+"experienceSection": {
+    "introduction": "Lo que he hecho hasta ahora",
+    "overview": "Experiencia Laboral."
+},
+"experiences": [
+    {
+      "title": "Desarrollador Full Stack (Pasantía)",
+      "company_name": "IDPartners",
+      "date": "Jun 2024 - Ago 2024",
+      "points": [
+        "Automatización de procesos en Google Sheets mediante Google Apps Script.",
+        "Creación de botones interactivos en hojas de cálculo que ejecutaban scripts conectados a APIs externas.",
+        "Validación y pruebas de datos con Postman para asegurar la correcta integración con Pipedrive (CRM de ventas y software de administración).",
+        "Mejora de la eficiencia en la gestión de datos y flujos internos de la empresa."
+      ]
+    },
+    {
+      "title": "Co-Fundador & Desarrollador Full Stack",
+      "company_name": "Tech Web Studio",
+      "date": "Jul 2023 - Feb 2025",
+      "points": [
+        "Creación de una agencia digital durante el bootcamp en Henry junto a dos compañeros.",
+        "Desarrollo de proyectos web para clientes con React.js, Node.js, Express.js y PostgreSQL.",
+        "Diseño e implementación de soluciones personalizadas, desde la arquitectura hasta la interfaz de usuario."
+      ]
+    },
+    {
+      "title": "Entrenador de IA Freelance",
+      "company_name": "Outlier AI · Plataforma Freelance",
+      "date": "2023 -2024",
+      "points": [
+        "Entrenamiento y supervisión de modelos de inteligencia artificial en la plataforma de Outlier AI.",
+        "Contribución a la mejora de algoritmos mediante la generación de datos de calidad y feedback estructurado."
+      ]
+  }
+],
+"projects": [
+    {
+      "name": "Portfolio Chef Experience",
+      "description": "Portfolio interactivo para chefs, desarrollado con React, TypeScript, Tailwind CSS, Framer Motion e internacionalización (i18n) en inglés y español. Incluye carrusel de platos, animaciones, menú hamburguesa y diseño responsive."
+    }
+],
+"hero": {
+    "welcome": "¡Hola, soy",
+    "name": "Nahuel Carvajal",
+    "description": "Soy un desarrollador full stack apasionado por crear soluciones web eficientes y atractivas."
+},
+"about": {
+    "introduction": "Sobre mí",
+    "overview": "Descripcion general.",
+    "description": "Soy un Desarrollador Full Stack con sólida experiencia en TypeScript y JavaScript. Construyo interfaces responsivas y fáciles de usar con React.js y Next.js, y desarrollo APIs backend robustas con Node.js, Express y NestJS. Trabajo de manera eficiente con bases de datos relacionales como MySQL y PostgreSQL, y también aprovecho Firebase para autenticación y datos en tiempo real. Apasionado por crear soluciones web escalables, mantenibles e intuitivas, disfruto transformando ideas en aplicaciones funcionales."
+},
+"works": {
+    "mywork": "Mis proyectos",
+    "projects": "Proyectos",
+    "description": "Estos proyectos representan una selección de mi trabajo y demuestran cómo aplico mis habilidades en casos reales. Cada uno incluye una breve descripción, así como enlaces al código y demo en vivo. A través de ellos, muestro mi capacidad para resolver problemas, adaptarme a diferentes tecnologías y llevar adelante proyectos de manera eficiente."
+},
+"contact": {
+    "getintouch": "Ponte en contacto",
+    "title": "Contacto",
+    "name": "Tu nombre",
+    "email": "Tu correo electrónico",
+    "message": "Tu mensaje",
+    "button": "Enviar",
+    "sending": "Enviando..."
+}
+}
