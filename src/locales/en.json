@@ -44,13 +44,12 @@
 ],
 "projects": [
     {
-        "introduction":"What I have done so far",
-        "overview": "Work Experience."
-
+      "name": "Chef Experience Portfolio",
+      "description": "Interactive portfolio for chefs..."
     },
     {
-      "name": "Chef Experience Portfolio",
-      "description": "Interactive portfolio for chefs, developed with React, TypeScript, Tailwind CSS, Framer Motion, and internationalization (i18n) in English and Spanish. Features a dish carousel, animations, hamburger menu, and responsive design."
+      "name": "Cash Register MVP System",
+      "description": "Cash register management system designed for barbershops and small businesses. Built with React, TypeScript, NestJS, Prisma, and MySQL. Features JWT authentication, register opening/closing control, transaction management, detailed reports, and automated discrepancy detection."
     }
 ],
 "experienceSection": {

@@ -30,6 +30,7 @@ export {default as swagger} from "./tech/swagger.svg";
 export {default as redux} from "./tech/redux.svg";
 //* Work Samples
 export {default as chefPortfolio} from "./work-examples/chef-portfolio.png"
+export {default as cashRegister} from "./work-examples/cash-register.png" 
 //* Work Samples Navigator
 export {default as link} from "./link.png";
 export {default as github} from "./github.png";

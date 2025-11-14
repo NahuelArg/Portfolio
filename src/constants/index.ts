@@ -20,6 +20,7 @@ import {
     swagger,
     jest,
     chefPortfolio,
+    cashRegister,
     redux,
     prisma
 } from "../assets";
@@ -224,5 +225,21 @@ export const projects: ReadonlyArray<IProject> = [
         image: chefPortfolio,
         source_code_link: 'https://github.com/NahuelArg/chef-experience-portfolio',
         app_link: "https://chef-experience-portfolio.vercel.app"
+    },
+    {
+        id: 2,
+        name: "Cash Register System",
+        description:"Cash register management system for retail and small businesses",
+        tags: [
+            { id: 1, name: "react", color: "blue-text-gradient" },
+            { id: 2, name: "typescript", color: "text-blue-700" },
+            { id: 3, name: "nestjs", color: "text-pink-500" },
+            { id: 4, name: "mysql", color: "text-blue-500" },
+            { id: 5, name: "prisma", color: "text-green-600" },
+            { id: 6, name: "tailwind", color: "text-cyan-500" },
+        ],
+        image: cashRegister,
+        source_code_link: 'https://github.com/NahuelArg/cash-register-mvp',
+        app_link: "https://cash-register-mvp.vercel.app"
     }
 ];

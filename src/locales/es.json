@@ -49,7 +49,11 @@
 "projects": [
     {
       "name": "Portfolio Chef Experience",
-      "description": "Portfolio interactivo para chefs, desarrollado con React, TypeScript, Tailwind CSS, Framer Motion e internacionalización (i18n) en inglés y español. Incluye carrusel de platos, animaciones, menú hamburguesa y diseño responsive."
+      "description": "Portfolio interactivo para chefs, desarrollado con React..."
+    },
+    {
+      "name": "Sistema de Caja Registradora MVP",
+      "description": "Sistema de gestión de caja registradora diseñado para barberías y pequeños negocios. Desarrollado con React, TypeScript, NestJS, Prisma y MySQL. Incluye autenticación JWT, control de apertura/cierre de caja, gestión de transacciones, reportes detallados y detección automática de discrepancias."
     }
 ],
 "hero": {
