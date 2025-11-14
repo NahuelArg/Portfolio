@@ -53,7 +53,7 @@
     },
     {
       "name": "Sistema de Caja Registradora MVP",
-      "description": "Sistema de gestión de caja registradora diseñado para barberías y pequeños negocios. Desarrollado con React, TypeScript, NestJS, Prisma y MySQL. Incluye autenticación JWT, control de apertura/cierre de caja, gestión de transacciones, reportes detallados y detección automática de discrepancias."
+      "description": "Sistema de gestión de caja registradora diseñado para pequeños negocios. Desarrollado con React, TypeScript, NestJS, Prisma y MySQL. Incluye autenticación JWT, control de apertura/cierre de caja, gestión de transacciones, reportes detallados y detección automática de discrepancias."
     }
 ],
 "hero": {

@@ -49,7 +49,7 @@
     },
     {
       "name": "Cash Register MVP System",
-      "description": "Cash register management system designed for barbershops and small businesses. Built with React, TypeScript, NestJS, Prisma, and MySQL. Features JWT authentication, register opening/closing control, transaction management, detailed reports, and automated discrepancy detection."
+      "description": "Cash register management system designed for small businesses. Built with React, TypeScript, NestJS, Prisma, and MySQL. Features JWT authentication, register opening/closing control, transaction management, detailed reports, and automated discrepancy detection."
     }
 ],
 "experienceSection": {
