@@ -224,7 +224,7 @@ export const projects: ReadonlyArray<IProject> = [
         ],
         image: chefPortfolio,
         source_code_link: 'https://github.com/NahuelArg/chef-experience-portfolio',
-        app_link: "https://chef-experience-portfolio.vercel.app"
+        app_link: "https://chef-experience-portfolio-nahuelargs-projects.vercel.app"
     },
     {
         id: 2,
