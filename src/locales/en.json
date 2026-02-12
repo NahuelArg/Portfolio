@@ -5,79 +5,82 @@
     "contact": "Contact",
     "projects": "Projects"
 },
-"services": {
-    "fullstack": "Fullstack Developer",
-    "frontend": "Frontend Developer",
-    "backend": "Backend Developer"
-},
-"experiences": [
-    {
-      "title": "Full Stack Developer (Internship)",
-      "company_name": "IDPartners",
-      "date": "Jun 2024 - Aug 2024",
+
+"experiences": {
+  "idPartners" : {
+      "title": "Developer",
+      "company_name": "IdParterns",
+      "date": "Oct 2024 - Dec 2024",
       "points": [
-        "Process automation in Google Sheets using Google Apps Script.",
-        "Creation of interactive buttons in spreadsheets that executed scripts connected to external APIs.",
-        "Data validation and testing with Postman to ensure correct integration with Pipedrive (sales CRM and management software).",
-        "Improved efficiency in data management and internal company workflows."
+        "Reduced ~3 daily hours of manual work for the sales team through bidirectional Google Sheets ↔ Pipedrive CRM integration for Aguartec (aquaculture sector).",
+        "Implemented automation scripts with Google Apps Script that synchronize products, pricing and deals at scale via Pipedrive API.",
+        "Developed data validation and robust error handling to ensure integrity in concurrent multi-product updates.",
+        "Configured real-time synchronization through polling and automatic triggers, eliminating data inconsistencies between systems."
       ]
     },
-    {
-      "title": "Co-Founder & Full Stack Developer",
-      "company_name": "Tech Web Studio",
-      "date": "July 2023 - Feb 2025",
-      "points": [
-        "Founded a digital agency during the Henry bootcamp with two partners.",
-        "Developed web projects for clients using React.js, Node.js, Express.js, and PostgreSQL.",
-        "Designed and implemented custom solutions, from architecture to user interface."
+  "freelanceWebDev": { "title": "Freelance Web Developer", "company_name": "Self-Employed | Client: Chef Jon Argañaraz", "date": "Dec 2025 - Jan 2026", "points": [
+        "Built professional landing page with React, TypeScript, TailwindCSS and Framer Motion. Mobile-first responsive design with performance <2s.",
+        "Managed full project lifecycle from initial brief to Vercel deployment, working directly with client."
       ]
     },
-    {
-      "title": "Freelance AI Trainer",
-      "company_name": "Outlier AI · Freelance Platform",
-      "date": "2023 -2024",
+    "hospitality": {
+      "title": "Hospitality Sector",
+      "company_name": "Various Employers",
+      "date": "2014 - 2024",
       "points": [
-        "Training and supervision of artificial intelligence models on the Outlier AI platform.",
-        "Contributed to algorithm improvement through quality data generation and structured feedback."
+        "10 years developing transferable skills: management under pressure, multitasking, rapid problem-solving and attention to detail."
       ]
     }
-],
-"projects": [
+  },
+"projects": {
+  "chefExperiencePortfolio:":
     {
       "name": "Chef Experience Portfolio",
-      "description": "Interactive portfolio for chefs..."
+      "description": "Professional landing page for chefs built with React, TypeScript, TailwindCSS and Framer Motion. Mobile-first responsive design with performance <2s. Full project lifecycle from brief to Vercel deployment."
     },
+    "cashRegisterSystem":
     {
       "name": "Cash Register MVP System",
-      "description": "Cash register management system designed for small businesses. Built with React, TypeScript, NestJS, Prisma, and MySQL. Features JWT authentication, register opening/closing control, transaction management, detailed reports, and automated discrepancy detection."
+      "description": "Cash register system for small businesses. Atomic transactions with Prisma ensure cash open/close as all-or-nothing operations. Multiple payment methods, reports with complex SQL aggregations, transaction history with search and temporal filters. Optimistic state management with Zustand."
+    },
+"shiftManagementSystem":
+    {
+      "name": "Shift Management System",
+      "description": "Appointment management system for businesses with multiple employees. Conflict detection algorithm with Prisma atomic transactions prevents double-bookings. NestJS backend with Clean Architecture, RBAC with 3 roles (Admin/Employee/Client), JWT authentication with refresh tokens, and Swagger-documented API."
+    },
+    "countriesInfoApp":
+    {
+      "name": "Countries Info App",
+      "description": "Express.js backend as proxy/aggregator for external APIs (Nager.Date, CountriesNow) with fallback system for service failures. Interactive visualization of demographic data for 200+ countries with Chart.js and efficient pagination."
     }
-],
+  },
 "experienceSection": {
     "introduction": "What I have done so far",
     "overview": "Work Experience."
 },
-"hero":{
-  "welcome": "Hi, I'm",
-  "name": "Nahuel Carvajal",
-  "description": "I'm a full stack developer passionate about creating efficient and attractive web solutions."
+"hero": {
+    "welcome": "Hi, I'm",
+    "name": "Nahuel Argañaraz",
+    "description": "Full Stack Developer specialized in backend, business integrations and process automation.",
+    "downloadCv": "Download CV"
 },
 "about": {
-        "introduction": "About Me",
-        "overview": "Overview.",
-        "description": "I'm a Full Stack Developer with strong experience in TypeScript and JavaScript. I build responsive and user-friendly interfaces using React.js and Next.js, and develop robust backend APIs with Node.js, Express, and NestJS. I work efficiently with relational databases like MySQL and PostgreSQL, and also leverage Firebase for authentication and real-time data. Passionate about creating scalable, maintainable, and intuitive web solutions, I enjoy turning ideas into functional applications."
+    "introduction": "About Me",
+    "overview": "Overview.",
+    "description": "Full Stack Developer specialized in backend, business integrations and process automation. Recent production experience reducing 3 daily hours of manual work through Pipedrive CRM integration for Aguartec (IdParterns, Oct-Dec 2024). Build systems with complex architecture: JWT authentication, RBAC with custom Guards, conflict detection with atomic transactions. Main stack: TypeScript, NestJS, Prisma, React. Intensive training at Bootcamp Henry (+800h) with continuous self-taught specialization in scalable architectures."
 },
 "works": {
-        "mywork": "My Work",
-        "projects": "Projects",
-        "description": "'These projects represent a selection of my work and demonstrate how I apply my skills in real-world cases. Each one includes a short description, as well as links to the code and live demo. Through them, I showcase my ability to solve issues, adapt to different technologies, and carry projects forward efficiently."
+    "mywork": "My Work",
+    "projects": "Projects",
+    "description": "A selection of projects demonstrating my experience building full-stack applications with complex architectures, API integrations, and modern frontend frameworks. Each includes source code and live deployment links."
 },
 "contact": {
     "getintouch": "Get in touch",
     "title": "Contact.",
-    "name":"Your Name",
-    "email":"Your Email",
-    "message":"Your Message",
-    "button":"Send",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "button": "Send",
     "sending": "Sending..."
 }
 }

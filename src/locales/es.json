@@ -5,71 +5,75 @@
     "contact": "Contacto",
     "projects": "Proyectos"
 },
-"services": {
-    "fullstack": "Desarrollador Fullstack",
-    "frontend": "Desarrollador Frontend",
-    "backend": "Desarrollador Backend"
-},
 "experienceSection": {
     "introduction": "Lo que he hecho hasta ahora",
     "overview": "Experiencia Laboral."
 },
-"experiences": [
+"experiences": {
+   "idParterns" : 
     {
-      "title": "Desarrollador Full Stack (Pasantía)",
-      "company_name": "IDPartners",
-      "date": "Jun 2024 - Ago 2024",
+      "title": "Desarrollador",
+      "company_name": "IdParterns",
+      "date": "Oct 2024 - Dic 2024",
       "points": [
-        "Automatización de procesos en Google Sheets mediante Google Apps Script.",
-        "Creación de botones interactivos en hojas de cálculo que ejecutaban scripts conectados a APIs externas.",
-        "Validación y pruebas de datos con Postman para asegurar la correcta integración con Pipedrive (CRM de ventas y software de administración).",
-        "Mejora de la eficiencia en la gestión de datos y flujos internos de la empresa."
+        "Reduje ~3 horas diarias de trabajo manual del equipo de ventas mediante integración bidireccional Google Sheets ↔ Pipedrive CRM para cliente Aguartec (sector acuicultura).",
+        "Implementé scripts de automatización con Google Apps Script que sincronizan productos, precios y deals de forma masiva via Pipedrive API.",
+        "Desarrollé validación de datos y error handling robusto para garantizar integridad en actualizaciones concurrentes de múltiples productos.",
+        "Configuré sincronización en tiempo real mediante polling y triggers automáticos, eliminando inconsistencias entre sistemas."
       ]
     },
-    {
-      "title": "Co-Fundador & Desarrollador Full Stack",
-      "company_name": "Tech Web Studio",
-      "date": "Jul 2023 - Feb 2025",
+
+    "FreelanceWebDev": {
+      "title": "Desarrollador Web Freelance",
+      "company_name": "Autónomo | Cliente: Chef Jon Argañaraz",
+      "date": "Dic 2025 - Ene 2026",
       "points": [
-        "Creación de una agencia digital durante el bootcamp en Henry junto a dos compañeros.",
-        "Desarrollo de proyectos web para clientes con React.js, Node.js, Express.js y PostgreSQL.",
-        "Diseño e implementación de soluciones personalizadas, desde la arquitectura hasta la interfaz de usuario."
+        "Desarrollé landing page profesional con React, TypeScript, TailwindCSS y Framer Motion. Diseño responsive mobile-first con performance <2s.",
+        "Gestioné proyecto completo desde brief inicial hasta deployment en Vercel, trabajando directamente con cliente."
       ]
     },
-    {
-      "title": "Entrenador de IA Freelance",
-      "company_name": "Outlier AI · Plataforma Freelance",
-      "date": "2023 -2024",
+"Hospitality": {
+      "title": "Sector de Hospitalidad",
+      "company_name": "Diversos Empleadores",
+      "date": "2014 - 2024",
       "points": [
-        "Entrenamiento y supervisión de modelos de inteligencia artificial en la plataforma de Outlier AI.",
-        "Contribución a la mejora de algoritmos mediante la generación de datos de calidad y feedback estructurado."
+        "10 años desarrollando habilidades transferibles: gestión bajo presión, multitasking, resolución rápida de problemas y atención al detalle."
       ]
-  }
-],
-"projects": [
-    {
-      "name": "Portfolio Chef Experience",
-      "description": "Portfolio interactivo para chefs, desarrollado con React..."
-    },
-    {
-      "name": "Sistema de Caja Registradora MVP",
-      "description": "Sistema de gestión de caja registradora diseñado para pequeños negocios. Desarrollado con React, TypeScript, NestJS, Prisma y MySQL. Incluye autenticación JWT, control de apertura/cierre de caja, gestión de transacciones, reportes detallados y detección automática de discrepancias."
     }
-],
+  },
+"projects": {
+    "chefExperiencePortfolio": {
+      "name": "Portfolio Chef Experience",
+      "description": "Landing page profesional para chefs desarrollada con React, TypeScript, TailwindCSS y Framer Motion. Diseño responsive mobile-first con performance <2s. Ciclo completo del proyecto desde brief hasta deployment en Vercel."
+    },
+    "cashRegisterSystem": {
+      "name": "Sistema de Caja Registradora MVP",
+      "description": "Sistema de caja registradora para pequeños negocios. Transacciones atómicas con Prisma que garantizan apertura/cierre de caja como operaciones todo o nada. Múltiples métodos de pago, reportes con agregaciones SQL complejas, historial de transacciones con búsqueda y filtros temporales. Estado optimista con Zustand."
+    },
+    "shiftManagementSystem": {
+      "name": "Sistema de Gestión de Turnos",
+      "description": "Sistema de gestión de turnos para negocios con múltiples empleados. Algoritmo de detección de conflictos con transacciones atómicas de Prisma que previene reservas simultáneas. Backend NestJS con Clean Architecture, RBAC con 3 roles (Admin/Empleado/Cliente), autenticación JWT con refresh tokens y API documentada con Swagger."
+    },
+    "countriesInfoApp": {
+      "name": "Countries Info App",
+      "description": "Backend Express.js como proxy/aggregator de APIs externas (Nager.Date, CountriesNow) con sistema de fallbacks. Visualización interactiva de datos demográficos de 200+ países con Chart.js y paginación eficiente."
+    }
+},
 "hero": {
     "welcome": "¡Hola, soy",
-    "name": "Nahuel Carvajal",
-    "description": "Soy un desarrollador full stack apasionado por crear soluciones web eficientes y atractivas."
+    "name": "Nahuel Argañaraz",
+    "description": "Full Stack Developer especializado en backend, integraciones empresariales y automatización de procesos.",
+    "downloadCv": "Descargar CV"
 },
 "about": {
     "introduction": "Sobre mí",
-    "overview": "Descripcion general.",
-    "description": "Soy un Desarrollador Full Stack con sólida experiencia en TypeScript y JavaScript. Construyo interfaces responsivas y fáciles de usar con React.js y Next.js, y desarrollo APIs backend robustas con Node.js, Express y NestJS. Trabajo de manera eficiente con bases de datos relacionales como MySQL y PostgreSQL, y también aprovecho Firebase para autenticación y datos en tiempo real. Apasionado por crear soluciones web escalables, mantenibles e intuitivas, disfruto transformando ideas en aplicaciones funcionales."
+    "overview": "Descripción general.",
+    "description": "Full Stack Developer especializado en backend, integraciones empresariales y automatización de procesos. Experiencia reciente en producción reduciendo 3 horas diarias de trabajo manual mediante integración Pipedrive CRM para Aguartec (IdParterns, oct-dic 2024). Desarrollo sistemas con arquitectura compleja: autenticación JWT, RBAC con Guards personalizados, detección de conflictos con transacciones atómicas. Stack principal: TypeScript, NestJS, Prisma, React. Formación intensiva Bootcamp Henry (+800h) con especialización autodidacta continua en arquitecturas escalables."
 },
 "works": {
     "mywork": "Mis proyectos",
     "projects": "Proyectos",
-    "description": "Estos proyectos representan una selección de mi trabajo y demuestran cómo aplico mis habilidades en casos reales. Cada uno incluye una breve descripción, así como enlaces al código y demo en vivo. A través de ellos, muestro mi capacidad para resolver problemas, adaptarme a diferentes tecnologías y llevar adelante proyectos de manera eficiente."
+    "description": "Una selección de proyectos que demuestran mi experiencia construyendo aplicaciones full-stack con arquitecturas complejas, integraciones de APIs y frameworks frontend modernos. Cada uno incluye código fuente y enlaces a deploys en vivo."
 },
 "contact": {
     "getintouch": "Ponte en contacto",

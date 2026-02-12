@@ -1,11 +1,6 @@
 import {
-    frontend,
-    backend,
-    fullstack,
     javascript,
     typescript,
-    html,
-    css,
     reactjs,
     express,
     tailwind,
@@ -13,18 +8,24 @@ import {
     nestjs,
     git,
     docker,
-    next,
     postgresql,
     mysql,
-    firebase,
     swagger,
-    jest,
+    prisma,
+    zustand,
+    supabase,
+    githubIcon,
+    vercel,
+    render,
+    railway,
+    postman,
+    jwt,
+    googleappsscript,
     chefPortfolio,
     cashRegister,
-    redux,
-    prisma
+    shiftManagement,
 } from "../assets";
-import { IExperience, INavLink, IProject, IService, ITechnology } from "../models/constants.model";
+import { IExperience, INavLink, IProject, ITechnology } from "../models/constants.model";
 
 export const navLinks: ReadonlyArray<INavLink> = [
     {
@@ -45,176 +46,81 @@ export const navLinks: ReadonlyArray<INavLink> = [
     },
 ];
 
-export const services: ReadonlyArray<IService> = [
-    {
-        id: 1,
-        title: "Fullstack Developer",
-        icon: fullstack,
-    },
-    {
-        id: 2,
-        title: "Frontend Developer",
-        icon: frontend,
-    },
-    {
-        id: 3,
-        title: "Backend Developer",
-        icon: backend,
-    },
-];
-
 export const technologies: ReadonlyArray<ITechnology> = [
-    {
-        id: 1,
-        name: "HTML 5",
-        icon: html,
-    },
-    {
-        id: 2,
-        name: "CSS 3",
-        icon: css,
-    },
-    {
-        id: 3,
-        name: "JavaScript",
-        icon: javascript,
-    },
-    {
-        id: 4,
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
-        id: 5,
-        name: "React JS",
-        icon: reactjs,
-    },
-    {
-        id: 7,
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
-    {
-        id: 10,
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
-        id: 11,
-        name: "Next JS",
-        icon: next,
-    },
-
-    {
-        id: 13,
-        name: "git",
-        icon: git,
-    },
-
-    {
-        id: 15,
-        name: "docker",
-        icon: docker,
-    },
-    {
-        id: 16,
-        name: "express",
-        icon: express,
-    },
-
-    {
-        id: 17,
-        name: "nestjs",
-        icon: nestjs,
-    },
-
-    {
-        id: 18,
-        name: "postgresql",
-        icon: postgresql,
-    },
-
-    {
-        id: 19,
-        name: "mysql",
-        icon: mysql,
-    },
-
-    {
-        id: 20,
-        name: "firebase",
-        icon: firebase,
-    },
-    {
-        id: 21,
-        name: "swagger",
-        icon: swagger,
-    },
-
-    {
-        id: 22,
-        name: "jest",
-        icon: jest,
-    },
-    {
-        id: 23,
-        name: "prisma",
-        icon: prisma,
-    },
-    {
-        id: 24,
-        name: "redux",
-        icon: redux,
-    },
-
-
+    // Backend
+    { id: 1, name: "NestJS", icon: nestjs },
+    { id: 2, name: "Node.js", icon: nodejs },
+    { id: 3, name: "Prisma", icon: prisma },
+    { id: 4, name: "Express", icon: express },
+    { id: 5, name: "JWT", icon: jwt },
+    { id: 6, name: "Google Apps Script", icon: googleappsscript },
+    // Frontend
+    { id: 7, name: "React", icon: reactjs },
+    { id: 8, name: "TypeScript", icon: typescript },
+    { id: 9, name: "JavaScript", icon: javascript },
+    { id: 10, name: "Tailwind CSS", icon: tailwind },
+    { id: 11, name: "Zustand", icon: zustand },
+    // Database
+    { id: 12, name: "PostgreSQL", icon: postgresql },
+    { id: 13, name: "MySQL", icon: mysql },
+    { id: 14, name: "Supabase", icon: supabase },
+    // DevOps & Tools
+    { id: 15, name: "Git", icon: git },
+    { id: 16, name: "GitHub", icon: githubIcon },
+    { id: 17, name: "Vercel", icon: vercel },
+    { id: 18, name: "Render", icon: render },
+    { id: 19, name: "Railway", icon: railway },
+    { id: 20, name: "Docker", icon: docker },
+    { id: 21, name: "Swagger", icon: swagger },
+    { id: 22, name: "Postman", icon: postman },
 ];
 
 export const experiences: ReadonlyArray<IExperience> = [
     {
+        slug: "idParterns",
         id: 1,
-        title: "Full Stack Developer (Internship)",
-        company_name: "IDPartners",
+        title: "Developer",
+        company_name: "IdParterns",
         iconBg: "#383E56",
-        date: "Jun 2024 - Aug 2024",
+        date: "Oct 2024 - Dec 2024",
         points: [
-            "Process automation in Google Sheets using Google Apps Script.",
-            "Creation of interactive buttons in spreadsheets that executed scripts connected to external APIs.",
-            "Data validation and testing with Postman to ensure correct integration with Pipedrive (sales CRM and management software).",
-            "Improved efficiency in data management and internal company workflows."
+            "Reduced ~3 daily hours of manual work for the sales team through bidirectional Google Sheets ↔ Pipedrive CRM integration for Aguartec (aquaculture sector).",
+            "Implemented automation scripts with Google Apps Script that synchronize products, pricing and deals at scale via Pipedrive API.",
+            "Developed data validation and robust error handling to ensure integrity in concurrent multi-product updates.",
+            "Configured real-time synchronization through polling and automatic triggers, eliminating data inconsistencies between systems.",
         ],
     },
     {
+        slug: "freelanceWebDev",
         id: 2,
-        title: "Co-Founder & Full Stack Developer",
-        company_name: "Tech Web Studio",
+        title: "Freelance Web Developer",
+        company_name: "Self-Employed | Client: Chef Jon Argañaraz",
         iconBg: "#383E56",
-        date: "July 2023 - Feb 2025",
+        date: "Dec 2025 - Jan 2026",
         points: [
-            "Founded a digital agency during the Henry bootcamp with two partners.",
-            "Developed web projects for clients using React.js, Node.js, Express.js, and PostgreSQL.",
-            "Designed and implemented custom solutions, from architecture to user interface.",
+            "Built professional landing page with React, TypeScript, TailwindCSS and Framer Motion. Mobile-first responsive design with performance <2s.",
+            "Managed full project lifecycle from initial brief to Vercel deployment, working directly with client.",
         ],
     },
     {
+        slug: "hospitality",
         id: 3,
-        title: "Freelance AI Trainer",
-        company_name: "Outlier AI · Freelance Platform",
+        title: "Hospitality Sector",
+        company_name: "Various Employers",
         iconBg: "#383E56",
-        date: "2023 -2024",
+        date: "2014 - 2024",
         points: [
-            "Training and supervision of artificial intelligence models on the Outlier AI platform.",
-            "Contributed to algorithm improvement through quality data generation and structured feedback.",
+            "10 years developing transferable skills: management under pressure, multitasking, rapid problem-solving and attention to detail.",
         ],
     },
 ];
 
 export const projects: ReadonlyArray<IProject> = [
     {
+        slug: "chefExperiencePortfolio",
         id: 1,
         name: "Chef Experience Portfolio",
-        description:
-            "Interactive portfolio for chefs, developed with React, TypeScript, Tailwind CSS, Framer Motion, and internationalization (i18n) in English and Spanish. Features a dish carousel, animations, hamburger menu, and responsive design.",
+        description: "Professional landing page for chefs built with React, TypeScript, TailwindCSS and Framer Motion.",
         tags: [
             { id: 1, name: "react", color: "blue-text-gradient" },
             { id: 2, name: "typescript", color: "text-blue-700" },
@@ -227,19 +133,52 @@ export const projects: ReadonlyArray<IProject> = [
         app_link: "https://chef-experience-portfolio-nahuelargs-projects.vercel.app"
     },
     {
+        slug: "cashRegisterSystem",
         id: 2,
         name: "Cash Register System",
-        description:"Cash register management system for retail and small businesses",
+        description: "Cash register system for small businesses with atomic transactions.",
         tags: [
             { id: 1, name: "react", color: "blue-text-gradient" },
             { id: 2, name: "typescript", color: "text-blue-700" },
             { id: 3, name: "nestjs", color: "text-pink-500" },
             { id: 4, name: "mysql", color: "text-blue-500" },
             { id: 5, name: "prisma", color: "text-green-600" },
-            { id: 6, name: "tailwind", color: "text-cyan-500" },
+            { id: 6, name: "zustand", color: "text-purple-500" },
         ],
         image: cashRegister,
         source_code_link: 'https://github.com/NahuelArg/cash-register-mvp',
         app_link: "https://cash-register-mvp.vercel.app"
-    }
+    },
+    {
+        slug: "shiftManagementSystem",
+        id: 3,
+        name: "Shift Management System",
+        description: "Appointment management system with conflict detection and RBAC.",
+        tags: [
+            { id: 1, name: "nestjs", color: "text-pink-500" },
+            { id: 2, name: "prisma", color: "text-green-600" },
+            { id: 3, name: "postgresql", color: "text-blue-500" },
+            { id: 4, name: "react", color: "blue-text-gradient" },
+            { id: 5, name: "typescript", color: "text-blue-700" },
+            { id: 6, name: "jwt", color: "text-yellow-500" },
+        ],
+        image: shiftManagement,
+        source_code_link: "https://github.com/NahuelArg/shift-management",
+        app_link: "https://shift-management-livid.vercel.app"
+    },
+    // Countries Info App - uncomment when screenshot is available
+    // {
+    //     id: 4,
+    //     name: "Countries Info App",
+    //     description: "Express.js backend as proxy/aggregator for external APIs with Chart.js visualization.",
+    //     tags: [
+    //         { id: 1, name: "express", color: "text-gray-400" },
+    //         { id: 2, name: "react", color: "blue-text-gradient" },
+    //         { id: 3, name: "javascript", color: "text-yellow-500" },
+    //         { id: 4, name: "chart.js", color: "text-pink-500" },
+    //     ],
+    //     image: countriesInfo,
+    //     source_code_link: "https://github.com/NahuelArg/Countries",
+    //     app_link: ""
+    // },
 ];

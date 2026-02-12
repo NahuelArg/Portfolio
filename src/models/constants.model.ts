@@ -10,6 +10,7 @@ export interface IService {
 }
 
 export interface IExperience {
+    slug: string;
     id: number;
     title: string;
     company_name: string;
@@ -25,6 +26,7 @@ export interface ITechnology {
 }
 
 export interface IProject {
+    slug: string;
     id: number;
     name: string;
     description: string;
