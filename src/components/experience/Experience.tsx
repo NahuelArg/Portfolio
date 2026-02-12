@@ -1,4 +1,4 @@
-import {VerticalTimeline} from "react-vertical-timeline-component";
+import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import {motion} from "framer-motion";
 import SectionWrapper from "../../hoc/SectionWrapper";
 import "react-vertical-timeline-component/style.min.css";
@@ -10,6 +10,11 @@ import { useTranslation } from 'react-i18next';
 
 const Experience = () => {
   const { t } = useTranslation();
+  const getExpDate = (experience: typeof experiences[number]) => {
+    const expList = t(`experiences.${experience.slug}`, { returnObjects: true }) as Record<string, any>;
+    return expList && typeof expList === 'object' && !Array.isArray(expList) ? expList.date : experience.date;
+  };
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -19,7 +24,15 @@ const Experience = () => {
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map(experience => (
-              <ExperienceCard key={experience.id} experience={experience}/>
+              <VerticalTimelineElement
+                key={experience.slug}
+                contentStyle={{background: "transparent", boxShadow: "none", padding: 0}}
+                contentArrowStyle={{borderRight: "7px solid #242424"}}
+                date={getExpDate(experience)}
+                iconStyle={{background: experience.iconBg}}
+              >
+                <ExperienceCard experience={experience} />
+              </VerticalTimelineElement>
           ))}
         </VerticalTimeline>
       </div>
