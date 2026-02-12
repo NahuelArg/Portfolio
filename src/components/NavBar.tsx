@@ -26,7 +26,7 @@ const Navbar = () => {
                 <Link to="/" className="flex items-center gap-2" onClick={handleScroll}>
                     <img src={mLogo} alt="logo" className="w-11 h-11 object-contain"/>
                     <p className="text-[#f3faf3] text-[18px] font-bold cursor-pointer flex">Nahuel&nbsp;
-                        <span className="sm:block hidden">| Carvajal</span>
+                        <span className="sm:block hidden">| Argañaraz</span>
                     </p>
                 </Link>
                 <Menu active={active} setActive={setActive}/>
