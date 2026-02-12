@@ -1,4 +1,4 @@
-import {About, Contact, Experience, Hero, NavBar, Tech, Works} from "./components";
+import {About, Contact, Experience, Hero, NavBar, Works} from "./components";
 
 const App = () => {
 
@@ -10,7 +10,6 @@ const App = () => {
             </div>
             <About/>
             <Experience/>
-            <Tech/>
             <Works/>
             <div className="relative z-0">
                 <Contact/>

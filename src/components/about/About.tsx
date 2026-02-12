@@ -1,9 +1,8 @@
 
 import {motion} from "framer-motion";
 import {styles} from "../../styles";
-import {services} from "../../constants";
+import {technologies} from "../../constants";
 import { slideIn, textVariant} from "../../utils/motion";
-import ServiceCard from "./ServiceCard";
 import SectionWrapper from "../../hoc/SectionWrapper"
 import { useTranslation } from 'react-i18next';
 
@@ -20,11 +19,19 @@ const About = () => {
                       className="mt-4 text-[#cae8ca] text-[17px] max-w-3xl leading-[30px]">
                 {t('about.description')}
             </motion.p>
-            <div className="mt-20 flex flex-wrap gap-10">
-                {services.map((service) => (
-                    <ServiceCard key={service.id} id={service.id} title={t(`${service.title}`)} icon={service.icon}/>
-                ))}
-            </div>
+            <motion.div
+                variants={slideIn("up", "spring", 0.2, 1)}
+                className="mt-16"
+            >
+                <div className="flex flex-row flex-wrap justify-center gap-10">
+                    {technologies.map(technology => (
+                        <div key={technology.id} className="w-28 h-28">
+                            <img src={technology.icon} alt={technology.name} className="w-full h-full object-contain" loading="lazy" />
+                            <p className="text-[#cae8ca] text-[14px] font-bold text-center mt-2">{technology.name}</p>
+                        </div>
+                    ))}
+                </div>
+            </motion.div>
         </>
     )
 }
