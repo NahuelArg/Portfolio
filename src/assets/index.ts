@@ -26,11 +26,21 @@ export {default as postgresql} from "./tech/postgresql.svg";
 export {default as mysql} from "./tech/mysql.svg";
 export {default as firebase} from "./tech/firebase.svg";
 export {default as swagger} from "./tech/swagger.svg";
-
 export {default as redux} from "./tech/redux.svg";
+export {default as zustand} from "./tech/zustand.svg";
+export {default as supabase} from "./tech/supabase.svg";
+export {default as githubIcon} from "./tech/github-icon.svg";
+export {default as vercel} from "./tech/vercel.svg";
+export {default as render} from "./tech/render.svg";
+export {default as railway} from "./tech/railway.svg";
+export {default as postman} from "./tech/postman.svg";
+export {default as jwt} from "./tech/jwt.svg";
+export {default as googleappsscript} from "./tech/googleappsscript.svg";
+
 //* Work Samples
 export {default as chefPortfolio} from "./work-examples/chef-portfolio.png"
-export {default as cashRegister} from "./work-examples/cash-register.png" 
+export {default as cashRegister} from "./work-examples/cash-register.png"
+export {default as shiftManagement} from "./work-examples/shift-management.png"
 //* Work Samples Navigator
 export {default as link} from "./link.png";
 export {default as github} from "./github.png";
