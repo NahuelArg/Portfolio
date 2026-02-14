@@ -5,8 +5,8 @@ const Hero = () => {
     const { t, i18n } = useTranslation();
 
     const cvUrl = i18n.language === 'es'
-        ? 'https://github.com/NahuelArg/Portfolio/blob/main/public/CV_Nahuel_Esp.pdf'
-        : 'https://github.com/NahuelArg/Portfolio/blob/main/public/CV_Nahuel_English.pdf';
+        ? 'public/CV_Nahuel_Esp.pdf'
+        : 'public/CV_Nahuel_English.pdf';
 
     return (
         <section className="relative w-full h-screen mx-auto">
