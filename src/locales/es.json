@@ -62,13 +62,16 @@
 "hero": {
     "welcome": "¡Hola, soy",
     "name": "Nahuel Argañaraz",
-    "description": "Full Stack Developer especializado en backend, integraciones empresariales y automatización de procesos.",
-    "downloadCv": "Descargar CV"
+    "description": "Desarrollador Backend, integraciones empresariales y automatización de procesos.",
+    "downloadCv": "Descargar CV",
+    "pills": ["NestJS · Node.js", "Integraciones de negocio", "Automatización de procesos", "REST APIs · Auth"],
+    "metric": "−3h / día de trabajo manual eliminado en producción",
+    "cta2": "Ver proyectos →"
 },
 "about": {
     "introduction": "Sobre mí",
     "overview": "Descripción general.",
-    "description": "Full Stack Developer especializado en backend, integraciones empresariales y automatización de procesos. Experiencia reciente en producción reduciendo 3 horas diarias de trabajo manual mediante integración Pipedrive CRM para Aguartec (IdParterns, oct-dic 2024). Desarrollo sistemas con arquitectura compleja: autenticación JWT, RBAC con Guards personalizados, detección de conflictos con transacciones atómicas. Stack principal: TypeScript, NestJS, Prisma, React. Formación intensiva Bootcamp Henry (+800h) con especialización autodidacta continua en arquitecturas escalables."
+    "description": "Desarrollador Backend especializado en integraciones empresariales y automatización de procesos. Experiencia reciente en producción reduciendo 3 horas diarias de trabajo manual mediante integración Pipedrive CRM para Aguartec (IdParterns, oct-dic 2024). Desarrollo sistemas con arquitectura compleja: autenticación JWT, RBAC con Guards personalizados, detección de conflictos con transacciones atómicas. Stack principal: TypeScript, NestJS, Prisma, React. Formación intensiva Bootcamp Henry (+800h) con especialización autodidacta continua en arquitecturas escalables."
 },
 "works": {
     "mywork": "Mis proyectos",

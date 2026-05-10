@@ -21,7 +21,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-50 bg-[#6fb970] border-b-[2px] border-[#cae8ca]`}>
+        <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-50 bg-[#0f2410] border-b-[2px] border-[#2b4a1d]`}>
             <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
                 <Link to="/" className="flex items-center gap-2" onClick={handleScroll}>
                     <img src={mLogo} alt="logo" className="w-11 h-11 object-contain"/>
