@@ -23,14 +23,38 @@ const About = () => {
                 variants={slideIn("up", "spring", 0.2, 1)}
                 className="mt-16"
             >
-                <div className="flex flex-row flex-wrap justify-center gap-10">
-                    {technologies.map(technology => (
-                        <div key={technology.id} className="w-28 h-28">
-                            <img src={technology.icon} alt={technology.name} className="w-full h-full object-contain" loading="lazy" />
-                            <p className="text-[#cae8ca] text-[14px] font-bold text-center mt-2">{technology.name}</p>
-                        </div>
-                    ))}
-                </div>
+                {(() => {
+                    const categories = ["Backend · Core", "Database & ORM", "Frontend", "DevOps & Tools"];
+                    return categories.map(cat => {
+                        const techs = technologies.filter(t => t.category === cat);
+                        return (
+                            <div key={cat} className="mb-8">
+                                <div className="flex items-center gap-3 mb-4">
+                                    <span className="text-[#6fb970] text-xs font-bold uppercase tracking-widest font-mono">
+                                        {cat}
+                                    </span>
+                                    <div className="flex-1 h-px bg-[rgba(202,232,202,0.15)]" />
+                                </div>
+                                <div className="flex flex-row flex-wrap gap-3">
+                                    {techs.map(technology => (
+                                        <div
+                                            key={technology.id}
+                                            className="flex items-center gap-2 bg-[rgba(111,185,112,0.08)] border border-[rgba(111,185,112,0.2)] rounded-lg px-3 py-2"
+                                        >
+                                            <img
+                                                src={technology.icon}
+                                                alt={technology.name}
+                                                className="w-5 h-5 object-contain"
+                                                loading="lazy"
+                                            />
+                                            <span className="text-[#cae8ca] text-sm font-medium">{technology.name}</span>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        );
+                    });
+                })()}
             </motion.div>
         </>
     )

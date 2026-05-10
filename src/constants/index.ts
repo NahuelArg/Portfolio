@@ -47,32 +47,32 @@ export const navLinks: ReadonlyArray<INavLink> = [
 ];
 
 export const technologies: ReadonlyArray<ITechnology> = [
-    // Backend
-    { id: 1, name: "NestJS", icon: nestjs },
-    { id: 2, name: "Node.js", icon: nodejs },
-    { id: 3, name: "Prisma", icon: prisma },
-    { id: 4, name: "Express", icon: express },
-    { id: 5, name: "JWT", icon: jwt },
-    { id: 6, name: "Google Apps Script", icon: googleappsscript },
+    // Backend · Core
+    { id: 1,  name: "NestJS",             icon: nestjs,           category: "Backend · Core" },
+    { id: 2,  name: "Node.js",            icon: nodejs,           category: "Backend · Core" },
+    { id: 3,  name: "TypeScript",         icon: typescript,       category: "Backend · Core" },
+    { id: 4,  name: "Express",            icon: express,          category: "Backend · Core" },
+    { id: 5,  name: "JWT",                icon: jwt,              category: "Backend · Core" },
+    { id: 6,  name: "Google Apps Script", icon: googleappsscript, category: "Backend · Core" },
+    // Database & ORM
+    { id: 7,  name: "Prisma",      icon: prisma,      category: "Database & ORM" },
+    { id: 8,  name: "PostgreSQL",  icon: postgresql,  category: "Database & ORM" },
+    { id: 9,  name: "MySQL",       icon: mysql,       category: "Database & ORM" },
+    { id: 10, name: "Supabase",    icon: supabase,    category: "Database & ORM" },
     // Frontend
-    { id: 7, name: "React", icon: reactjs },
-    { id: 8, name: "TypeScript", icon: typescript },
-    { id: 9, name: "JavaScript", icon: javascript },
-    { id: 10, name: "Tailwind CSS", icon: tailwind },
-    { id: 11, name: "Zustand", icon: zustand },
-    // Database
-    { id: 12, name: "PostgreSQL", icon: postgresql },
-    { id: 13, name: "MySQL", icon: mysql },
-    { id: 14, name: "Supabase", icon: supabase },
+    { id: 11, name: "React",        icon: reactjs,     category: "Frontend" },
+    { id: 12, name: "JavaScript",   icon: javascript,  category: "Frontend" },
+    { id: 13, name: "Tailwind CSS", icon: tailwind,    category: "Frontend" },
+    { id: 14, name: "Zustand",      icon: zustand,     category: "Frontend" },
     // DevOps & Tools
-    { id: 15, name: "Git", icon: git },
-    { id: 16, name: "GitHub", icon: githubIcon },
-    { id: 17, name: "Vercel", icon: vercel },
-    { id: 18, name: "Render", icon: render },
-    { id: 19, name: "Railway", icon: railway },
-    { id: 20, name: "Docker", icon: docker },
-    { id: 21, name: "Swagger", icon: swagger },
-    { id: 22, name: "Postman", icon: postman },
+    { id: 15, name: "Git",     icon: git,       category: "DevOps & Tools" },
+    { id: 16, name: "GitHub",  icon: githubIcon, category: "DevOps & Tools" },
+    { id: 17, name: "Docker",  icon: docker,    category: "DevOps & Tools" },
+    { id: 18, name: "Vercel",  icon: vercel,    category: "DevOps & Tools" },
+    { id: 19, name: "Railway", icon: railway,   category: "DevOps & Tools" },
+    { id: 20, name: "Swagger", icon: swagger,   category: "DevOps & Tools" },
+    { id: 21, name: "Postman", icon: postman,   category: "DevOps & Tools" },
+    { id: 22, name: "Render",  icon: render,    category: "DevOps & Tools" },
 ];
 
 export const experiences: ReadonlyArray<IExperience> = [
@@ -89,6 +89,7 @@ export const experiences: ReadonlyArray<IExperience> = [
             "Developed data validation and robust error handling to ensure integrity in concurrent multi-product updates.",
             "Configured real-time synchronization through polling and automatic triggers, eliminating data inconsistencies between systems.",
         ],
+        metric: { value: "−3h", label: "trabajo manual\neliminado / día" },
     },
     {
         slug: "freelanceWebDev",
@@ -101,6 +102,7 @@ export const experiences: ReadonlyArray<IExperience> = [
             "Built professional landing page with React, TypeScript, TailwindCSS and Framer Motion. Mobile-first responsive design with performance <2s.",
             "Managed full project lifecycle from initial brief to Vercel deployment, working directly with client.",
         ],
+        metric: { value: "<2s", label: "performance\nen producción" },
     },
     {
         slug: "hospitality",

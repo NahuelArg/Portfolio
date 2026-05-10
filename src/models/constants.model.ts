@@ -17,12 +17,14 @@ export interface IExperience {
     iconBg: string;
     date: string;
     points: string[];
+    metric?: { value: string; label: string };
 }
 
 export interface ITechnology {
     id: number;
     name: string;
     icon: string;
+    category: string;
 }
 
 export interface IProject {
