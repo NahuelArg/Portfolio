@@ -5,8 +5,8 @@ const Hero = () => {
     const { t, i18n } = useTranslation();
 
     const cvUrl = i18n.language === 'es'
-        ? '/CV_Nahuel_Esp.pdf'
-        : '/CV_Nahuel_English.pdf';
+        ? '/CV_Nahuel_Arganaraz_ES.pdf'
+        : '/CV_Nahuel_Arganaraz_EN.pdf';
 
     return (
         <section className="relative w-full h-screen mx-auto">
@@ -22,7 +22,7 @@ const Hero = () => {
                 <div className="flex-1">
                     <p className="text-[#6fb970] text-xs font-mono tracking-widest uppercase mb-4 flex items-center gap-2">
                         <span className="w-1.5 h-1.5 rounded-full bg-[#6fb970] inline-block"/>
-                        · Backend Software Developer ·
+                        {t('hero.badge')}
                     </p>
 
                     <h1 className={styles.heroHeadText}>
@@ -65,7 +65,7 @@ const Hero = () => {
                 {/* Metric bubble — desktop only */}
                 <div className="hidden lg:flex flex-col items-center text-center bg-[rgba(111,185,112,0.08)] border border-[rgba(111,185,112,0.2)] rounded-2xl p-5 mt-5 flex-shrink-0 min-w-[120px]">
                     <span className="text-[#6fb970] text-4xl font-black font-mono leading-none">−3h</span>
-                    <span className="text-[rgba(202,232,202,0.6)] text-[10px] mt-2 leading-snug">trabajo manual<br/>eliminado / día<br/>en producción</span>
+                    <span className="text-[rgba(202,232,202,0.6)] text-[10px] mt-2 leading-snug whitespace-pre-line">{t('hero.metricLabel')}</span>
                 </div>
 
             </div>

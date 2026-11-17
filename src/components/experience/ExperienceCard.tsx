@@ -27,7 +27,7 @@ const ExperienceCard: FC<IExperienceCardProps> = ({experience}) => {
                                 {experience.metric.value}
                             </div>
                             <div className="text-[rgba(202,232,202,0.4)] text-[10px] mt-1 whitespace-pre-line">
-                                {experience.metric.label}
+                                {(exp as Record<string, any>).metricLabel ?? experience.metric.label}
                             </div>
                         </div>
                     )}

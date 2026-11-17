@@ -7,46 +7,45 @@
 },
 
 "experiences": {
-  "idPartners" : {
-      "title": "Developer",
-      "company_name": "IdParterns",
+  "idPartners": {
+      "title": "Backend Developer (internship)",
+      "company_name": "IdPartners · On-site, Mendoza (Argentina)",
       "date": "Oct 2024 - Dec 2024",
+      "metricLabel": "manual work\nremoved / day",
       "points": [
-        "Reduced ~3 daily hours of manual work for the sales team through bidirectional Google Sheets ↔ Pipedrive CRM integration for Aguartec (aquaculture sector).",
-        "Implemented automation scripts with Google Apps Script that synchronize products, pricing and deals at scale via Pipedrive API.",
-        "Developed data validation and robust error handling to ensure integrity in concurrent multi-product updates.",
-        "Configured real-time synchronization through polling and automatic triggers, eliminating data inconsistencies between systems."
+        "Cut ~3 hours of daily manual work for the sales team with a bidirectional Google Sheets ↔ Pipedrive CRM integration (client Aguartec, aquaculture sector).",
+        "Explored the Pipedrive REST API endpoints with Postman and automated product, price and deal sync with Google Apps Script, removing manual data entry.",
+        "Ensured data integrity during concurrent updates with validation and error handling."
       ]
     },
-  "freelanceWebDev": { "title": "Freelance Web Developer", "company_name": "Self-Employed | Client: Chef Jon Argañaraz", "date": "Dec 2025 - Jan 2026", "points": [
-        "Built professional landing page with React, TypeScript, TailwindCSS and Framer Motion. Mobile-first responsive design with performance <2s.",
-        "Managed full project lifecycle from initial brief to Vercel deployment, working directly with client."
+  "henryTA": {
+      "title": "Student Teaching Assistant",
+      "company_name": "Henry · Argentina (part-time)",
+      "date": "May 2024 - Nov 2024",
+      "points": [
+        "Helped students from later cohorts solve problems and debug code in one-on-one and group sessions.",
+        "Explained concepts such as React components, Node.js middlewares and data modeling with Sequelize and MongoDB."
       ]
     },
-    "hospitality": {
-      "title": "Hospitality Sector",
-      "company_name": "Various Employers",
-      "date": "2014 - 2024",
+  "hospitality": {
+      "title": "Hospitality & customer service",
+      "company_name": "Argentina and Spain",
+      "date": "~10 years - Present",
       "points": [
-        "10 years developing transferable skills: management under pressure, multitasking, rapid problem-solving and attention to detail."
+        "My projects (bookings, shifts, cash control) solve problems I lived first-hand in 10 years of hospitality."
       ]
     }
   },
 "projects": {
-  "chefExperiencePortfolio:":
-    {
-      "name": "Chef Experience Portfolio",
-      "description": "Professional landing page for chefs built with React, TypeScript, TailwindCSS and Framer Motion. Mobile-first responsive design with performance <2s. Full project lifecycle from brief to Vercel deployment."
-    },
     "cashRegisterSystem":
     {
-      "name": "Cash Register MVP System",
-      "description": "Cash register system for small businesses. Atomic transactions with Prisma ensure cash open/close as all-or-nothing operations. Multiple payment methods, reports with complex SQL aggregations, transaction history with search and temporal filters. Optimistic state management with Zustand."
+      "name": "Cash Register MVP",
+      "description": "Cash-control system for small businesses. Cash opening/closing as atomic operations with Prisma, financial reports with SQL aggregations and optimistic state on the frontend with Zustand."
     },
-"shiftManagementSystem":
+    "shiftManagementSystem":
     {
       "name": "Shift Management System",
-      "description": "Appointment management system for businesses with multiple employees. Conflict detection algorithm with Prisma atomic transactions prevents double-bookings. NestJS backend with Clean Architecture, RBAC with 3 roles (Admin/Employee/Client), JWT authentication with refresh tokens, and Swagger-documented API."
+      "description": "Multi-tenant B2B booking SaaS in production. 3-role RBAC (NestJS Guards), JWT with refresh tokens and conflict detection with Prisma atomic transactions. ~220 Jest tests (unit + e2e against real PostgreSQL), GitHub Actions CI, a 24-issue security audit and a Swagger-documented API."
     },
     "countriesInfoApp":
     {
@@ -59,23 +58,25 @@
     "overview": "Work Experience."
 },
 "hero": {
+    "badge": "· Junior Backend Developer ·",
     "welcome": "Hi, I'm",
     "name": "Nahuel Argañaraz",
-    "description": "Backend Software Developer specialized in business integrations and process automation.",
+    "description": "Junior backend developer focused on NestJS, TypeScript and business integrations. Studying DAM and available for internships.",
     "downloadCv": "Download CV",
-    "pills": ["NestJS · Node.js", "Business Integrations", "Process Automation", "REST APIs · Auth"],
+    "pills": ["NestJS · Node.js", "PostgreSQL · Prisma", "Business Integrations", "Testing · CI"],
     "metric": "−3h / day of manual work eliminated in production",
+    "metricLabel": "manual work\nremoved / day",
     "cta2": "View projects →"
 },
 "about": {
     "introduction": "About Me",
     "overview": "Overview.",
-    "description": "Backend Software Developer specialized in business integrations and process automation. Recent production experience reducing 3 daily hours of manual work through Pipedrive CRM integration for Aguartec (IdParterns, Oct-Dec 2024). Build systems with complex architecture: JWT authentication, RBAC with custom Guards, conflict detection with atomic transactions. Main stack: TypeScript, NestJS, Prisma, React. Intensive training at Bootcamp Henry (+800h) with continuous self-taught specialization in scalable architectures."
+    "description": "Junior backend developer (NestJS · TypeScript · PostgreSQL), currently studying a Higher Vocational Diploma in Cross-Platform Application Development (DAM) at ILERNA and available for internships in Bizkaia (Spain) or remote. During my internship at IdPartners I built a bidirectional Google Sheets ↔ Pipedrive CRM integration that removed ~3 hours of daily manual work for the sales team of an aquaculture client. My main project, Shift Management, is a multi-tenant booking SaaS in production with RBAC, JWT refresh tokens, ~220 tests, GitHub Actions CI and a 24-issue security audit. I come from ~10 years in hospitality: my projects solve problems I lived first-hand."
 },
 "works": {
     "mywork": "My Work",
     "projects": "Projects",
-    "description": "A selection of projects demonstrating my experience building full-stack applications with complex architectures, API integrations, and modern frontend frameworks. Each includes source code and live deployment links."
+    "description": "Projects I built end to end, from the data model to deployment. Each one includes source code and a live demo."
 },
 "contact": {
     "getintouch": "Get in touch",
