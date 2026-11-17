@@ -10,49 +10,43 @@
     "overview": "Experiencia Laboral."
 },
 "experiences": {
-   "idParterns" : 
-    {
-      "title": "Desarrollador",
-      "company_name": "IdParterns",
+  "idPartners": {
+      "title": "Backend Developer (prácticas)",
+      "company_name": "IdPartners · Presencial, Mendoza (Argentina)",
       "date": "Oct 2024 - Dic 2024",
+      "metricLabel": "trabajo manual\neliminado / día",
       "points": [
-        "Reduje ~3 horas diarias de trabajo manual del equipo de ventas mediante integración bidireccional Google Sheets ↔ Pipedrive CRM para cliente Aguartec (sector acuicultura).",
-        "Implementé scripts de automatización con Google Apps Script que sincronizan productos, precios y deals de forma masiva via Pipedrive API.",
-        "Desarrollé validación de datos y error handling robusto para garantizar integridad en actualizaciones concurrentes de múltiples productos.",
-        "Configuré sincronización en tiempo real mediante polling y triggers automáticos, eliminando inconsistencias entre sistemas."
+        "Reduje ~3 h diarias de trabajo manual del equipo de ventas con una integración bidireccional Google Sheets ↔ Pipedrive CRM (cliente Aguartec, sector acuicultura).",
+        "Exploré los endpoints de la API REST de Pipedrive con Postman y automaticé con Google Apps Script la sincronización de productos, precios y deals, eliminando la entrada manual de datos.",
+        "Garanticé la integridad de los datos en actualizaciones concurrentes con validación y manejo de errores."
       ]
     },
-
-    "FreelanceWebDev": {
-      "title": "Desarrollador Web Freelance",
-      "company_name": "Autónomo | Cliente: Chef Jon Argañaraz",
-      "date": "Dic 2025 - Ene 2026",
+  "henryTA": {
+      "title": "Student Teaching Assistant",
+      "company_name": "Henry · Argentina (media jornada)",
+      "date": "May 2024 - Nov 2024",
       "points": [
-        "Desarrollé landing page profesional con React, TypeScript, TailwindCSS y Framer Motion. Diseño responsive mobile-first con performance <2s.",
-        "Gestioné proyecto completo desde brief inicial hasta deployment en Vercel, trabajando directamente con cliente."
+        "Resolví dudas y hice debugging con alumnos de cohortes posteriores en sesiones individuales y grupales.",
+        "Expliqué conceptos como componentes de React, middlewares en Node.js y modelado de datos con Sequelize y MongoDB."
       ]
     },
-"Hospitality": {
-      "title": "Sector de Hospitalidad",
-      "company_name": "Diversos Empleadores",
-      "date": "2014 - 2024",
+  "hospitality": {
+      "title": "Hostelería y atención al cliente",
+      "company_name": "Argentina y España",
+      "date": "~10 años - Actualidad",
       "points": [
-        "10 años desarrollando habilidades transferibles: gestión bajo presión, multitasking, resolución rápida de problemas y atención al detalle."
+        "Mis proyectos (reservas, turnos, control de caja) resuelven problemas que viví de primera mano en 10 años de hostelería."
       ]
     }
   },
 "projects": {
-    "chefExperiencePortfolio": {
-      "name": "Portfolio Chef Experience",
-      "description": "Landing page profesional para chefs desarrollada con React, TypeScript, TailwindCSS y Framer Motion. Diseño responsive mobile-first con performance <2s. Ciclo completo del proyecto desde brief hasta deployment en Vercel."
-    },
     "cashRegisterSystem": {
-      "name": "Sistema de Caja Registradora MVP",
-      "description": "Sistema de caja registradora para pequeños negocios. Transacciones atómicas con Prisma que garantizan apertura/cierre de caja como operaciones todo o nada. Múltiples métodos de pago, reportes con agregaciones SQL complejas, historial de transacciones con búsqueda y filtros temporales. Estado optimista con Zustand."
+      "name": "Cash Register MVP",
+      "description": "Sistema de control de caja para pequeños negocios. Apertura/cierre de caja como operaciones atómicas con Prisma, reportes financieros con agregaciones SQL y estado optimista en frontend con Zustand."
     },
     "shiftManagementSystem": {
       "name": "Sistema de Gestión de Turnos",
-      "description": "Sistema de gestión de turnos para negocios con múltiples empleados. Algoritmo de detección de conflictos con transacciones atómicas de Prisma que previene reservas simultáneas. Backend NestJS con Clean Architecture, RBAC con 3 roles (Admin/Empleado/Cliente), autenticación JWT con refresh tokens y API documentada con Swagger."
+      "description": "SaaS B2B multi-tenant de reservas en producción. RBAC de 3 roles (Guards de NestJS), JWT con refresh tokens y detección de conflictos con transacciones atómicas de Prisma. ~220 tests en Jest (unitarios + e2e contra PostgreSQL real), CI con GitHub Actions, auditoría de seguridad de 24 issues y API documentada con Swagger."
     },
     "countriesInfoApp": {
       "name": "Countries Info App",
@@ -60,23 +54,25 @@
     }
 },
 "hero": {
+    "badge": "· Backend Developer Junior ·",
     "welcome": "¡Hola, soy",
     "name": "Nahuel Argañaraz",
-    "description": "Desarrollador Backend, integraciones empresariales y automatización de procesos.",
+    "description": "Desarrollador backend junior con foco en NestJS, TypeScript e integraciones empresariales. Cursando DAM y disponible para prácticas.",
     "downloadCv": "Descargar CV",
-    "pills": ["NestJS · Node.js", "Integraciones de negocio", "Automatización de procesos", "REST APIs · Auth"],
+    "pills": ["NestJS · Node.js", "PostgreSQL · Prisma", "Integraciones de negocio", "Testing · CI"],
     "metric": "−3h / día de trabajo manual eliminado en producción",
+    "metricLabel": "trabajo manual\neliminado / día",
     "cta2": "Ver proyectos →"
 },
 "about": {
     "introduction": "Sobre mí",
     "overview": "Descripción general.",
-    "description": "Desarrollador Backend especializado en integraciones empresariales y automatización de procesos. Experiencia reciente en producción reduciendo 3 horas diarias de trabajo manual mediante integración Pipedrive CRM para Aguartec (IdParterns, oct-dic 2024). Desarrollo sistemas con arquitectura compleja: autenticación JWT, RBAC con Guards personalizados, detección de conflictos con transacciones atómicas. Stack principal: TypeScript, NestJS, Prisma, React. Formación intensiva Bootcamp Henry (+800h) con especialización autodidacta continua en arquitecturas escalables."
+    "description": "Desarrollador backend junior (NestJS · TypeScript · PostgreSQL). Cursando DAM en ILERNA y disponible para prácticas (FCT) en Bizkaia o en remoto. En mis prácticas en IdPartners construí una integración bidireccional Google Sheets ↔ Pipedrive CRM que eliminó ~3 h diarias de trabajo manual al equipo comercial de un cliente del sector acuícola. Mi proyecto principal, Shift Management, es un SaaS multi-tenant de reservas en producción con RBAC, JWT con refresh tokens, ~220 tests, CI con GitHub Actions y una auditoría de seguridad de 24 issues. Vengo de ~10 años en hostelería: mis proyectos resuelven problemas que viví de primera mano."
 },
 "works": {
     "mywork": "Mis proyectos",
     "projects": "Proyectos",
-    "description": "Una selección de proyectos que demuestran mi experiencia construyendo aplicaciones full-stack con arquitecturas complejas, integraciones de APIs y frameworks frontend modernos. Cada uno incluye código fuente y enlaces a deploys en vivo."
+    "description": "Proyectos que construí de punta a punta, del modelo de datos al despliegue. Cada uno incluye código fuente y demo en vivo."
 },
 "contact": {
     "getintouch": "Ponte en contacto",
