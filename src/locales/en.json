@@ -61,7 +61,7 @@
     "badge": "· Junior Backend Developer ·",
     "welcome": "Hi, I'm",
     "name": "Nahuel Argañaraz",
-    "description": "Junior backend developer focused on NestJS, TypeScript and business integrations. Studying DAM and available for internships.",
+    "description": "Junior backend developer focused on NestJS, TypeScript and business integrations. Studying DAM, internship available from June 2027.",
     "downloadCv": "Download CV",
     "pills": ["NestJS · Node.js", "PostgreSQL · Prisma", "Business Integrations", "Testing · CI"],
     "metric": "−3h / day of manual work eliminated in production",
@@ -71,7 +71,7 @@
 "about": {
     "introduction": "About Me",
     "overview": "Overview.",
-    "description": "Junior backend developer (NestJS · TypeScript · PostgreSQL), currently studying a Higher Vocational Diploma in Cross-Platform Application Development (DAM) at ILERNA and available for internships in Bizkaia (Spain) or remote. During my internship at IdPartners I built a bidirectional Google Sheets ↔ Pipedrive CRM integration that removed ~3 hours of daily manual work for the sales team of an aquaculture client. My main project, Shift Management, is a multi-tenant booking SaaS in production with RBAC, JWT refresh tokens, ~220 tests, GitHub Actions CI and a 24-issue security audit. I come from ~10 years in hospitality: my projects solve problems I lived first-hand."
+    "description": "Junior backend developer (NestJS · TypeScript · PostgreSQL), currently studying a Higher Vocational Diploma in Cross-Platform Application Development (DAM) at ILERNA with an internship (FCT) available from June 2027, in Bizkaia (Spain) or remote. During my internship at IdPartners I built a bidirectional Google Sheets ↔ Pipedrive CRM integration that removed ~3 hours of daily manual work for the sales team of an aquaculture client. My main project, Shift Management, is a multi-tenant booking SaaS in production with RBAC, JWT refresh tokens, ~220 tests, GitHub Actions CI and a 24-issue security audit. I come from ~10 years in hospitality: my projects solve problems I lived first-hand."
 },
 "works": {
     "mywork": "My Work",

@@ -57,7 +57,7 @@
     "badge": "· Backend Developer Junior ·",
     "welcome": "¡Hola, soy",
     "name": "Nahuel Argañaraz",
-    "description": "Desarrollador backend junior con foco en NestJS, TypeScript e integraciones empresariales. Cursando DAM y disponible para prácticas.",
+    "description": "Desarrollador backend junior con foco en NestJS, TypeScript e integraciones empresariales. Cursando DAM, con prácticas FCT a partir de junio de 2027.",
     "downloadCv": "Descargar CV",
     "pills": ["NestJS · Node.js", "PostgreSQL · Prisma", "Integraciones de negocio", "Testing · CI"],
     "metric": "−3h / día de trabajo manual eliminado en producción",
@@ -67,7 +67,7 @@
 "about": {
     "introduction": "Sobre mí",
     "overview": "Descripción general.",
-    "description": "Desarrollador backend junior (NestJS · TypeScript · PostgreSQL). Cursando DAM en ILERNA y disponible para prácticas (FCT) en Bizkaia o en remoto. En mis prácticas en IdPartners construí una integración bidireccional Google Sheets ↔ Pipedrive CRM que eliminó ~3 h diarias de trabajo manual al equipo comercial de un cliente del sector acuícola. Mi proyecto principal, Shift Management, es un SaaS multi-tenant de reservas en producción con RBAC, JWT con refresh tokens, ~220 tests, CI con GitHub Actions y una auditoría de seguridad de 24 issues. Vengo de ~10 años en hostelería: mis proyectos resuelven problemas que viví de primera mano."
+    "description": "Desarrollador backend junior (NestJS · TypeScript · PostgreSQL). Cursando DAM en ILERNA, con prácticas FCT a partir de junio de 2027 (Bizkaia o remoto). En mis prácticas en IdPartners construí una integración bidireccional Google Sheets ↔ Pipedrive CRM que eliminó ~3 h diarias de trabajo manual al equipo comercial de un cliente del sector acuícola. Mi proyecto principal, Shift Management, es un SaaS multi-tenant de reservas en producción con RBAC, JWT con refresh tokens, ~220 tests, CI con GitHub Actions y una auditoría de seguridad de 24 issues. Vengo de ~10 años en hostelería: mis proyectos resuelven problemas que viví de primera mano."
 },
 "works": {
     "mywork": "Mis proyectos",
