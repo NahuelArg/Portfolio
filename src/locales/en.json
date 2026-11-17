@@ -71,7 +71,10 @@
 "about": {
     "introduction": "About Me",
     "overview": "Overview.",
-    "description": "Junior backend developer (NestJS · TypeScript · PostgreSQL), currently studying a Higher Vocational Diploma in Cross-Platform Application Development (DAM) at ILERNA with an internship (FCT) available from June 2027, in Bizkaia (Spain) or remote. During my internship at IdPartners I built a bidirectional Google Sheets ↔ Pipedrive CRM integration that removed ~3 hours of daily manual work for the sales team of an aquaculture client. My main project, Shift Management, is a multi-tenant booking SaaS in production with RBAC, JWT refresh tokens, ~220 tests, GitHub Actions CI and a 24-issue security audit. I come from ~10 years in hospitality: my projects solve problems I lived first-hand."
+    "description": "Junior backend developer (NestJS · TypeScript · PostgreSQL), currently studying a Higher Vocational Diploma in Cross-Platform Application Development (DAM) at ILERNA with an internship (FCT) available from June 2027, in Bizkaia (Spain) or remote. During my internship at IdPartners I built a bidirectional Google Sheets ↔ Pipedrive CRM integration that removed ~3 hours of daily manual work for the sales team of an aquaculture client. My main project, Shift Management, is a multi-tenant booking SaaS in production with RBAC, JWT refresh tokens, ~220 tests, GitHub Actions CI and a 24-issue security audit. I come from ~10 years in hospitality: my projects solve problems I lived first-hand.",
+    "languagesLabel": "Languages",
+    "languages": "Spanish (native) · English B1 (EF SET 45/100: reading and listening) ·",
+    "certLink": "View certificate"
 },
 "works": {
     "mywork": "My Work",

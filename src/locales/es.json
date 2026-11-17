@@ -67,7 +67,10 @@
 "about": {
     "introduction": "Sobre mí",
     "overview": "Descripción general.",
-    "description": "Desarrollador backend junior (NestJS · TypeScript · PostgreSQL). Cursando DAM en ILERNA, con prácticas FCT a partir de junio de 2027 (Bizkaia o remoto). En mis prácticas en IdPartners construí una integración bidireccional Google Sheets ↔ Pipedrive CRM que eliminó ~3 h diarias de trabajo manual al equipo comercial de un cliente del sector acuícola. Mi proyecto principal, Shift Management, es un SaaS multi-tenant de reservas en producción con RBAC, JWT con refresh tokens, ~220 tests, CI con GitHub Actions y una auditoría de seguridad de 24 issues. Vengo de ~10 años en hostelería: mis proyectos resuelven problemas que viví de primera mano."
+    "description": "Desarrollador backend junior (NestJS · TypeScript · PostgreSQL). Cursando DAM en ILERNA, con prácticas FCT a partir de junio de 2027 (Bizkaia o remoto). En mis prácticas en IdPartners construí una integración bidireccional Google Sheets ↔ Pipedrive CRM que eliminó ~3 h diarias de trabajo manual al equipo comercial de un cliente del sector acuícola. Mi proyecto principal, Shift Management, es un SaaS multi-tenant de reservas en producción con RBAC, JWT con refresh tokens, ~220 tests, CI con GitHub Actions y una auditoría de seguridad de 24 issues. Vengo de ~10 años en hostelería: mis proyectos resuelven problemas que viví de primera mano.",
+    "languagesLabel": "Idiomas",
+    "languages": "Español nativo · Inglés B1 (EF SET 45/100: lectura y comprensión auditiva) ·",
+    "certLink": "Ver certificado"
 },
 "works": {
     "mywork": "Mis proyectos",
