@@ -19,6 +19,21 @@ const About = () => {
                       className="mt-4 text-[#cae8ca] text-[17px] max-w-3xl leading-[30px]">
                 {t('about.description')}
             </motion.p>
+            <motion.p variants={slideIn("up", "spring", 0.15, 1)}
+                      className="mt-4 text-[#cae8ca] text-[15px] max-w-3xl">
+                <span className="text-[#6fb970] font-mono text-xs uppercase tracking-widest mr-2">
+                    {t('about.languagesLabel')}
+                </span>
+                {t('about.languages')}{' '}
+                <a
+                    href="https://cert.efset.org/en/GvvoUw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#6fb970] underline underline-offset-4 hover:text-[#cae8ca]"
+                >
+                    {t('about.certLink')}
+                </a>
+            </motion.p>
             <motion.div
                 variants={slideIn("up", "spring", 0.2, 1)}
                 className="mt-16"
